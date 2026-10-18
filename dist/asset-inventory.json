@@ -1,0 +1,63 @@
+{
+  "title": "Huff n Puff Home Run",
+  "artSource": "New imagegen art based on supplied Huff n Puff references; wolf head reused from Huff n Puff Slot Drop",
+  "atlasLayout": {
+    "wolf-batter.png": "2x2 ready, windup, contact, miss; contact extends beyond nominal cell",
+    "props.png": "2x2 hard hat, broken stump, pond, launch stump",
+    "straw.webp": "3x2: idle, flight, startled, slide, dazed, celebration; small green baseball pig",
+    "wood.webp": "3x2: idle, flight, startled, slide, dazed, celebration; medium blue baseball pig",
+    "brick.webp": "3x2: idle, flight, startled, slide, dazed, celebration; large purple baseball pig"
+  },
+  "assets": [
+    {
+      "path": "assets/huff/brick.webp",
+      "bytes": 306520,
+      "sha256": "486efc439c8fca49964a92e032565c86829cb99d11cfc38ae751ad7f2815a161"
+    },
+    {
+      "path": "assets/huff/forest-stadium.png",
+      "bytes": 2312965,
+      "sha256": "d48c4fb475f3df462695e4aaa65b709441fbd35983f7175c8a46108da3ec75d7"
+    },
+    {
+      "path": "assets/huff/props.png",
+      "bytes": 1716626,
+      "sha256": "a6e325b559ee49c75e8317a5d9745f2bbcc51b4a5661d867f27b446a5f458cbe"
+    },
+    {
+      "path": "assets/huff/seagull.webp",
+      "bytes": 203356,
+      "sha256": "aa7dd579346a5894269d08818cca7b487a26f5cfc25b5307e776932acb8682c0"
+    },
+    {
+      "path": "assets/huff/straw.webp",
+      "bytes": 288438,
+      "sha256": "4139d5ec196fcc1bdc2533ad3532a460d85cb971650f230f560d9546512dd24a"
+    },
+    {
+      "path": "assets/huff/wolf-batter.png",
+      "bytes": 1471570,
+      "sha256": "deeb9e16130939940f0fcd221e9b0e8076501a56e5c74a95e9392132af65a1a7"
+    },
+    {
+      "path": "assets/huff/wolf.png",
+      "bytes": 854895,
+      "sha256": "8f404ae18cf74709e41696572912b06bb2bba8aa36ccc162866fe810a3acbb4c"
+    },
+    {
+      "path": "assets/huff/wood.webp",
+      "bytes": 316870,
+      "sha256": "abeb2f46b16f6b293f3eb5f14dd064347d8c1e442b2a95493ece7d8061b2f926"
+    },
+    {
+      "path": "assets/huff/home-run-logo.png",
+      "bytes": 1851494,
+      "sha256": "1e1429b783e42bdf6103cde498d97d1c489acd2a23a367e13c458a81d46e5524"
+    },
+    {
+      "path": "assets/huff/home-plate-sign.webp",
+      "bytes": 212896,
+      "sha256": "6baff876055bbc7099aaee71c260500b4f215fb25b47666b0022695d4dab92ca"
+    }
+  ]
+}

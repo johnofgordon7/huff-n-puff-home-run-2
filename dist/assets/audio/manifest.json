@@ -1,0 +1,96 @@
+{
+  "title": "Huff n Puff Home Run audio",
+  "provider": "ElevenLabs",
+  "generated_on": "2026-10-12",
+  "assets": [
+    {
+      "path": "music.mp3",
+      "model": "eleven_music_v2",
+      "loop": true,
+      "processing": "Selected consistently active take 3; 80 ms circular tail-to-head overlap; loudness target -18 LUFS, true peak ceiling -2 dBTP; 48 kHz stereo 192 kbps MP3.",
+      "original_duration_seconds": 48,
+      "bytes": 1151468,
+      "sha256": "299a282391f6e262fbf575720fbbc275c314a5e0a0cb268b6f02a84ecef05ed4"
+    },
+    {
+      "path": "bat-hit.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 20732,
+      "sha256": "72334799e3888a04c03b4a3ddaf9187af5af785273eead3aceee466824ff5341"
+    },
+    {
+      "path": "miss.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 15716,
+      "sha256": "70144155b48473051ab0aeb8fddfad6114fb9a61d54aeb4c360bb131f9eda3f5"
+    },
+    {
+      "path": "bounce.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 13208,
+      "sha256": "9508861b2123ae49cc58048df1c904810dd6c83ca6a72306575d43d7642d6fbf"
+    },
+    {
+      "path": "collect.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 20732,
+      "sha256": "8fc807dd71bdc8ee8cda2b2869dbe58092a05befa26e7ff3ae58605f410a5afc"
+    },
+    {
+      "path": "hazard.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 30136,
+      "sha256": "20a8814e6a8519d598d37f2a53dda41f02e9c0863bcf5570893db70367708490"
+    },
+    {
+      "path": "record.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 73394,
+      "sha256": "db5362b88cadf3ee8484f17745cd6127f67a4dc68605b6e3e540aba78498f346"
+    },
+    {
+      "path": "splash.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 25747,
+      "sha256": "8d9becc0947eae2f3a3c53dcfef1e99c9e92c824180b2b046a6d010ea294f968"
+    },
+    {
+      "path": "bird.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": false,
+      "processing": "Peak headroom target -3 dBFS; 3 ms attack and 15 ms end fades.",
+      "bytes": 18224,
+      "sha256": "88806af841744752aa7b8dfff59f7ffdf82053e7f8d545d61508809ca2fe2511"
+    },
+    {
+      "path": "wind.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": true,
+      "processing": "Generated loop boundaries retained; peak headroom target -9 dBFS.",
+      "bytes": 97845,
+      "sha256": "daa3308f8e20ba0d648799e09fdc208da8c2c0da6b09cf6b5c6fce02bd262447"
+    },
+    {
+      "path": "slide.mp3",
+      "model": "eleven_text_to_sound_v2",
+      "loop": true,
+      "processing": "Generated loop boundaries retained; peak headroom target -9 dBFS.",
+      "bytes": 73394,
+      "sha256": "76c69601a9b0bc3b8d20450fd29393610186385747a085846c2dd2acd5e1db76"
+    }
+  ]
+}

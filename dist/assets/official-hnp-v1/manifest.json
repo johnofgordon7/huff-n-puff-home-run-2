@@ -1,0 +1,129 @@
+{
+  "assets": [
+    {
+      "file": "pig-straw.webp",
+      "source": "HnP_Landscape.psd",
+      "layer": 32,
+      "layer_name": "Sym_03_V00",
+      "source_bounds": [
+        573,
+        210,
+        815,
+        421
+      ],
+      "trim_bounds": [
+        0,
+        0,
+        242,
+        211
+      ],
+      "size": [
+        242,
+        211
+      ]
+    },
+    {
+      "file": "pig-wood.webp",
+      "source": "HnP_Landscape.psd",
+      "layer": 34,
+      "layer_name": "Sym_02_V00",
+      "source_bounds": [
+        567,
+        463,
+        813,
+        698
+      ],
+      "trim_bounds": [
+        0,
+        0,
+        246,
+        235
+      ],
+      "size": [
+        246,
+        235
+      ]
+    },
+    {
+      "file": "pig-brick.webp",
+      "source": "HnP_Landscape.psd",
+      "layer": 40,
+      "layer_name": "Sym_01_V00",
+      "source_bounds": [
+        1122,
+        210,
+        1349,
+        422
+      ],
+      "trim_bounds": [
+        0,
+        0,
+        227,
+        212
+      ],
+      "size": [
+        227,
+        212
+      ]
+    },
+    {
+      "file": "wolf.webp",
+      "source": "HnP_Landscape.psd",
+      "layer": 207,
+      "layer_name": "Wolf",
+      "source_bounds": [
+        -55,
+        449,
+        384,
+        937
+      ],
+      "trim_bounds": [
+        0,
+        0,
+        439,
+        488
+      ],
+      "size": [
+        439,
+        488
+      ]
+    },
+    {
+      "file": "hard-hat.webp",
+      "source": "HnP_Landscape.psd",
+      "layer": 45,
+      "layer_name": "Sym_12_V00",
+      "source_bounds": [
+        1354,
+        421,
+        1662,
+        719
+      ],
+      "trim_bounds": [
+        0,
+        0,
+        308,
+        298
+      ],
+      "size": [
+        308,
+        298
+      ]
+    },
+    {
+      "file": "logo.webp",
+      "source": "Core Asset Pack/game_logo_horizontal_V00.psd",
+      "crop": [
+        690,
+        0,
+        1445,
+        432
+      ],
+      "size": [
+        739,
+        432
+      ]
+    }
+  ],
+  "notes": "Exact rendered PSD pixels with alpha, trimmed and losslessly encoded. The supplied files do not contain baseball animation poses."
+}

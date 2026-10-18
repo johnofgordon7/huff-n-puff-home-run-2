@@ -1,0 +1,23 @@
+.shared-ready .control-dock,.shared-ready .arena>.balance-panel,.shared-ready .arena>.utilities,.shared-ready .statusbar{display:none!important}
+.ig-game{grid-template-rows:20px minmax(0,1fr) auto!important}
+#shared-header{width:auto;display:block;position:absolute;z-index:8;left:12px;right:12px;top:12px}
+#shared-controller-dock{position:absolute;z-index:8;left:50%;bottom:8px;transform:translateX(-50%);width:360px;height:125px}
+#shared-controller{display:block;width:100%;height:100%}#shared-controller-dock[hidden]{display:none}
+#shared-footer{display:block;width:100%;background:var(--surface-background-footer);padding-bottom:env(safe-area-inset-bottom)}
+@media(max-width:389px){#shared-controller-dock{width:290px;height:72px;bottom:12px}}
+@media(max-width:767px){#shared-header{left:8px;right:8px;top:7px}}
+#shared-panel{padding:0;border:0;border-radius:0;background:transparent;color:var(--text-color-default);max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);overflow:visible}
+#shared-panel>is-component{display:block}#shared-panel::backdrop,.locale-dialog::backdrop{background:#0007}
+#shared-panel[data-kind=menu]{position:fixed;margin:0;overflow-y:auto;border-radius:8px}#shared-panel[data-kind=menu]::backdrop{background:transparent}
+#shared-panel[data-kind="how-to-play"]{width:min(390px,calc(100vw - 24px))}
+.locale-dialog,.modal{background:var(--surface-background-primary)!important;border:1px solid var(--stroke-color-default)!important;border-radius:var(--border-radius-80)!important;color:var(--text-color-default)!important}
+.locale-dialog{padding:24px;width:min(440px,calc(100vw - 24px));max-height:calc(100dvh - 24px);overflow:auto;font:14px/1.5 Inter,Arial,sans-serif}.locale-dialog label{display:grid;gap:6px;margin:12px 0}.locale-dialog select{width:100%;padding:10px;background:var(--surface-background-secondary);color:white;border:1px solid var(--stroke-color-default);border-radius:4px;font:inherit}.locale-dialog select option{background:#222;color:white}.locale-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}.locale-actions button{flex:1;min-height:44px;padding:8px 16px;border:1px solid var(--stroke-color-default);border-radius:4px;background:var(--button-background-default);color:white;font:inherit}
+#huff-opening{position:fixed;inset:0;margin:0;width:100vw;height:100dvh;max-width:none;max-height:none;padding:0;border:0;background:linear-gradient(#10283fb3,#10283fe0),url('assets/huff/forest-stadium.png') center/cover;color:white;overflow:hidden}#huff-opening[open]{display:grid;place-items:center}#huff-opening::backdrop{background:#10283f}
+#opening-screen{display:block;width:min(390px,100vw);height:100%;--onboarding-width:100%;--onboarding-height:100dvh;--onboarding-surface:transparent;--color-surface-placeholder:transparent;--onboarding-logo-height:180px}
+.menu-list button,.action,.scenario-buttons button{height:auto;min-height:44px;white-space:normal;overflow-wrap:anywhere}
+
+@media(max-height:500px) and (min-width:600px){#opening-screen{width:min(700px,100vw)}}
+
+/* Replay summary follows the shared Figma card, with room above the viewport edge. */
+#pengu-replay-footer{bottom:8px;}
+#game.is-replaying #pengu-replay-footer{padding:0 12px;box-sizing:border-box;}
