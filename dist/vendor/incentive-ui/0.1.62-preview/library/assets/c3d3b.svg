@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="checkbox">
+<g id="Rectangle 119">
+<mask id="path-1-inside-1_0_7" fill="white">
+<path d="M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4Z"/>
+</mask>
+<path d="M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V4Z" fill="#6538FF"/>
+<path d="M4 2V4H20V2V0H4V2ZM22 4H20V20H22H24V4H22ZM20 22V20H4V22V24H20V22ZM2 20H4V4H2H0V20H2ZM4 22V20H4H2H0C0 22.2091 1.79086 24 4 24V22ZM22 20H20V20V22V24C22.2091 24 24 22.2091 24 20H22ZM20 2V4V4H22H24C24 1.79086 22.2091 0 20 0V2ZM4 2V0C1.79086 0 0 1.79086 0 4H2H4V4V2Z" fill="white" mask="url(#path-1-inside-1_0_7)"/>
+</g>
+<path id="Icon" d="M16 9L9.8125 15L7 12.2727" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
