@@ -1,0 +1,4 @@
+.sites-runtime/
+.openai/
+__pycache__/
+*.log
