@@ -1,0 +1,32 @@
+/* Incentive Games design baseline 1.0.0. Source: Bet Controller, 2026-09-19.
+   Scope these tokens to the game shell; adapt host component CSS to them. */
+.ig-game {
+  --ig-font: 'Inter', sans-serif;
+  --ig-surface: #131322;
+  --ig-control-fill: #11111166;
+  --ig-control-stroke: #ffffff66;
+  --ig-play-fill: #13132280;
+  --ig-play-stroke: #ffffff73;
+  --ig-text: #fff;
+  --ig-secondary-text: #cbc9ce;
+  --ig-status-text: #b2adb6;
+  --ig-positive: #16efd9;
+  --ig-accent: #552eff;
+  --ig-play-size: 100px;
+  --ig-secondary-size: 50px;
+  --ig-utility-size: 44px;
+  --ig-icon-size: 24px;
+  --ig-secondary-gap: 14px;
+  --ig-panel-radius: 8px;
+  --ig-stake-width: 129px;
+  --ig-stake-height: 46px;
+  --ig-edge-padding: 16px;
+}
+/* Select compact mode using the available game container width. */
+.ig-game[data-ig-compact='true'] {
+  --ig-play-size: 70px;
+  --ig-secondary-size: 44px;
+  --ig-secondary-gap: 8px;
+  --ig-stake-width: 115px;
+  --ig-stake-height: 44px;
+}

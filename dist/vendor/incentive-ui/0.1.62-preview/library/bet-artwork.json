@@ -1,0 +1,404 @@
+{
+  "type=play-icon, state=default, shape=circle, size=large": {
+    "id": "12:1142",
+    "file": "bet62-07cf3.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=stop-icon, state=default, shape=circle, size=large": {
+    "id": "102:2020",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-c201a.svg\" alt=\"\"><i style=\"position:absolute;left:35.0px;top:35.0px;width:32.0px;height:32.0px;border-radius:var(--border-radius-40);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=play-icon, state=default, shape=circle, size=small": {
+    "id": "71:2765",
+    "file": "bet62-46d13.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=play-icon, state=default, shape=square, size=large": {
+    "id": "12:1145",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-12-1145-path-1-outside-1_12_1145\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-icon-default-light)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--color-button-default)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-12-1145-path-1-outside-1_12_1145)\"/>\n<path d=\"M70 51L42.3636 70L42.3636 32L70 51Z\" fill=\"var(--color-icon-default-light)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=default, shape=square, size=small": {
+    "id": "71:2768",
+    "svg": "<svg width=\"70\" height=\"70\" viewBox=\"0 0 70 70\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-71-2768-path-1-inside-1_71_2768\" fill=\"var(--color-icon-default-light)\">\n<path d=\"M0 8C0 3.58172 3.58172 0 8 0H62C66.4183 0 70 3.58172 70 8V62C70 66.4183 66.4183 70 62 70H8C3.58172 70 0 66.4183 0 62V8Z\"/>\n</mask>\n<path d=\"M0 8C0 3.58172 3.58172 0 8 0H62C66.4183 0 70 3.58172 70 8V62C70 66.4183 66.4183 70 62 70H8C3.58172 70 0 66.4183 0 62V8Z\" fill=\"var(--color-button-default)\"/>\n<path d=\"M8 0V1H62V0V-1H8V0ZM70 8H69V62H70H71V8H70ZM62 70V69H8V70V71H62V70ZM0 62H1V8H0H-1V62H0ZM8 70V69C4.13401 69 1 65.866 1 62H0H-1C-1 66.9706 3.02944 71 8 71V70ZM70 62H69C69 65.866 65.866 69 62 69V70V71C66.9706 71 71 66.9706 71 62H70ZM62 0V1C65.866 1 69 4.13401 69 8H70H71C71 3.02944 66.9706 -1 62 -1V0ZM8 0V-1C3.02944 -1 -1 3.02944 -1 8H0H1C1 4.13401 4.13401 1 8 1V0Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-71-2768-path-1-inside-1_71_2768)\"/>\n<path d=\"M48.3 35L28.9545 48.3L28.9545 21.7L48.3 35Z\" fill=\"var(--color-icon-default-light)\"/>\n</svg>\n",
+    "x": 0.0,
+    "y": 0.0
+  },
+  "type=arrow-icon, state=default, shape=circle, size=large": {
+    "id": "12:1154",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-c201a.svg\" alt=\"\"><img src=\"@ASSET@bet62-19f71.svg\" alt=\"\" style=\"position:absolute;left:21.0px;top:21.0px\">"
+  },
+  "type=arrow-icon, state=default, shape=circle, size=small": {
+    "id": "71:2777",
+    "file": "bet62-69424.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=arrow-icon, state=default, shape=square, size=large": {
+    "id": "12:1159",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-12-1159-path-1-outside-1_12_1159\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-icon-default-light)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--color-button-default)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-12-1159-path-1-outside-1_12_1159)\"/>\n<path d=\"M48.7939 21.583C53.8332 21.2052 58.8858 22.1283 63.4658 24.2637C68.0456 26.399 72.0001 29.6748 74.9502 33.7773C75.2414 34.1823 75.3605 34.6865 75.2803 35.1787C75.1999 35.6711 74.9265 36.112 74.5215 36.4033C74.1165 36.6945 73.6124 36.8128 73.1201 36.7324C72.6279 36.652 72.1878 36.3795 71.8965 35.9746C68.4647 31.2055 63.5037 27.7547 57.8389 26.1953C52.174 24.636 46.1459 25.0614 40.7568 27.4023C35.3677 29.7434 30.9424 33.8588 28.2158 39.0635C25.4893 44.268 24.6253 50.2486 25.7686 56.0117C26.912 61.775 29.9939 66.9737 34.501 70.7432C39.008 74.5126 44.6693 76.6261 50.5439 76.7324C56.4185 76.8387 62.1525 74.932 66.793 71.3281C71.2884 67.8369 74.4953 62.9571 75.9199 57.457L76.0518 56.9229C76.098 56.681 76.191 56.4502 76.3262 56.2441C76.4665 56.0302 76.6488 55.847 76.8623 55.7061C77.0759 55.5651 77.3164 55.4688 77.5684 55.4238C77.8203 55.3789 78.079 55.386 78.3281 55.4443C78.5774 55.5028 78.8128 55.6113 79.0186 55.7637C79.2242 55.916 79.3967 56.1088 79.5254 56.3301C79.654 56.5514 79.736 56.7976 79.7666 57.0518C79.7971 57.3057 79.7756 57.5633 79.7031 57.8086C78.1933 64.2763 74.5361 70.0417 69.3271 74.1631C64.111 78.29 57.6483 80.5235 50.9971 80.499V80.5L50.9961 80.499L50.9951 80.5V80.499C45.9423 80.4982 40.9742 79.2005 36.5674 76.7285C32.1601 74.2562 28.4619 70.6929 25.8271 66.3809C23.1924 62.0687 21.7093 57.1514 21.5205 52.1016C21.3318 47.0518 22.4436 42.0378 24.749 37.541C27.0545 33.0444 30.4763 29.2153 34.6865 26.4209C38.8969 23.6265 43.7548 21.9609 48.7939 21.583Z\" fill=\"var(--color-icon-default-light)\" stroke=\"var(--color-icon-default-light)\"/>\n<path d=\"M77.0437 28.5145L76.6902 38.2694L76.6726 38.7684L76.1726 38.7509L66.4119 38.3973L65.2058 38.3534L66.0896 37.5311L76.2039 28.1298L77.0877 27.3085L77.0437 28.5145Z\" fill=\"var(--color-icon-default-light)\" stroke=\"var(--color-icon-default-light)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=default, shape=square, size=small": {
+    "id": "71:2782",
+    "svg": "<svg width=\"70\" height=\"70\" viewBox=\"0 0 70 70\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-71-2782-path-1-inside-1_71_2782\" fill=\"var(--color-icon-default-light)\">\n<path d=\"M0 8C0 3.58172 3.58172 0 8 0H62C66.4183 0 70 3.58172 70 8V62C70 66.4183 66.4183 70 62 70H8C3.58172 70 0 66.4183 0 62V8Z\"/>\n</mask>\n<path d=\"M0 8C0 3.58172 3.58172 0 8 0H62C66.4183 0 70 3.58172 70 8V62C70 66.4183 66.4183 70 62 70H8C3.58172 70 0 66.4183 0 62V8Z\" fill=\"var(--color-button-default)\"/>\n<path d=\"M8 0V1H62V0V-1H8V0ZM70 8H69V62H70H71V8H70ZM62 70V69H8V70V71H62V70ZM0 62H1V8H0H-1V62H0ZM8 70V69C4.13401 69 1 65.866 1 62H0H-1C-1 66.9706 3.02944 71 8 71V70ZM70 62H69C69 65.866 65.866 69 62 69V70V71C66.9706 71 71 66.9706 71 62H70ZM62 0V1C65.866 1 69 4.13401 69 8H70H71C71 3.02944 66.9706 -1 62 -1V0ZM8 0V-1C3.02944 -1 -1 3.02944 -1 8H0H1C1 4.13401 4.13401 1 8 1V0Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-71-2782-path-1-inside-1_71_2782)\"/>\n<path d=\"M33.4451 14.2585C36.998 13.9922 40.5597 14.6427 43.7889 16.1482C47.0182 17.6538 49.8074 19.9634 51.8875 22.8562C52.1147 23.172 52.2071 23.566 52.1443 23.95C52.0816 24.3338 51.8683 24.677 51.5526 24.9041C51.2368 25.1311 50.8436 25.2236 50.4598 25.1609C50.076 25.0982 49.7328 24.8857 49.5057 24.5701C47.1234 21.2595 43.6793 18.8635 39.7469 17.781C35.8146 16.6987 31.6303 16.9949 27.8895 18.6199C24.1486 20.2449 21.0761 23.1008 19.1834 26.7136C17.2907 30.3265 16.6915 34.4786 17.4852 38.4792C18.2789 42.4799 20.4181 46.0882 23.5467 48.7048C26.6754 51.3215 30.6054 52.7892 34.6834 52.863C38.7613 52.9368 42.7415 51.6127 45.9627 49.1111C49.184 46.6093 51.4524 43.0804 52.3904 39.1111C52.4269 38.925 52.4983 38.7473 52.6024 38.5886C52.7118 38.4217 52.8547 38.2787 53.0213 38.1687C53.1879 38.0588 53.3756 37.984 53.5721 37.949C53.7684 37.914 53.9697 37.9201 54.1639 37.9656C54.3582 38.0112 54.5415 38.0958 54.702 38.2146C54.8624 38.3334 54.9972 38.4835 55.0975 38.656C55.1977 38.8284 55.2611 39.0196 55.285 39.2175C55.3076 39.4057 55.2919 39.5964 55.242 39.7791L55.243 39.78C54.1813 44.3487 51.6 48.4215 47.9217 51.3318C44.2439 54.2416 39.6875 55.8158 34.9979 55.7986V55.7996L34.9969 55.7986L34.9959 55.7996V55.7986C31.4335 55.7979 27.931 54.8833 24.824 53.1404C21.7165 51.3972 19.1085 48.8849 17.2508 45.8445C15.3932 42.8041 14.3478 39.3376 14.2147 35.7771C14.0816 32.2165 14.8655 28.6812 16.491 25.5105C18.1166 22.3399 20.5292 19.64 23.4979 17.6697C26.4666 15.6993 29.892 14.5249 33.4451 14.2585Z\" fill=\"var(--color-icon-default-light)\" stroke=\"var(--color-icon-default-light)\"/>\n<path d=\"M53.3804 19.2657L53.1333 26.0939L53.1148 26.5939L52.6158 26.5753L45.7827 26.3282L44.5767 26.2843L45.4605 25.462L52.5406 18.881L53.4243 18.0597L53.3804 19.2657Z\" fill=\"var(--color-icon-default-light)\" stroke=\"var(--color-icon-default-light)\"/>\n</svg>\n",
+    "x": 0.0,
+    "y": 0.0
+  },
+  "type=play-icon, state=hover, shape=circle, size=large": {
+    "id": "256:21521",
+    "file": "bet62-3d323.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=stop-icon, state=hover, shape=circle, size=large": {
+    "id": "256:21542",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-f4c80.svg\" alt=\"\"><i style=\"position:absolute;left:35.0px;top:35.0px;width:32.0px;height:32.0px;border-radius:var(--border-radius-40);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=play-icon, state=hover, shape=square, size=large": {
+    "id": "256:21531",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-256-21531-path-1-outside-1_256_21531\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--button-background-hover)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-256-21531-path-1-outside-1_256_21531)\"/>\n<path d=\"M70 51L42.3636 70L42.3636 32L70 51Z\" fill=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=hover, shape=circle, size=small": {
+    "id": "256:21549",
+    "file": "bet62-68dcb.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=play-icon, state=hover, shape=square, size=small": {
+    "id": "256:21552",
+    "svg": "<svg width=\"72\" height=\"72\" viewBox=\"0 0 72 72\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-256-21552-path-1-outside-1_256_21552\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"72\" height=\"72\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"72\" height=\"72\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\" fill=\"var(--button-background-hover)\"/>\n<path d=\"M9 1V2H63V1V0H9V1ZM71 9H70V63H71H72V9H71ZM63 71V70H9V71V72H63V71ZM1 63H2V9H1H0V63H1ZM9 71V70C5.13401 70 2 66.866 2 63H1H0C0 67.9706 4.02944 72 9 72V71ZM71 63H70C70 66.866 66.866 70 63 70V71V72C67.9706 72 72 67.9706 72 63H71ZM63 1V2C66.866 2 70 5.13401 70 9H71H72C72 4.02944 67.9706 0 63 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-256-21552-path-1-outside-1_256_21552)\"/>\n<path d=\"M49.3 36L29.9545 49.3L29.9545 22.7L49.3 36Z\" fill=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=hover, shape=circle, size=large": {
+    "id": "256:21524",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-f4c80.svg\" alt=\"\"><img src=\"@ASSET@bet62-da382.svg\" alt=\"\" style=\"position:absolute;left:21.0px;top:21.0px\">"
+  },
+  "type=arrow-icon, state=hover, shape=square, size=large": {
+    "id": "256:21534",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-256-21534-path-1-outside-1_256_21534\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--button-background-hover)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-256-21534-path-1-outside-1_256_21534)\"/>\n<path d=\"M48.7939 21.583C53.8332 21.2052 58.8858 22.1283 63.4658 24.2637C68.0456 26.399 72.0001 29.6748 74.9502 33.7773C75.2414 34.1823 75.3605 34.6865 75.2803 35.1787C75.1999 35.6711 74.9265 36.112 74.5215 36.4033C74.1165 36.6945 73.6124 36.8128 73.1201 36.7324C72.6279 36.652 72.1878 36.3795 71.8965 35.9746C68.4647 31.2055 63.5037 27.7547 57.8389 26.1953C52.174 24.636 46.1459 25.0614 40.7568 27.4023C35.3677 29.7434 30.9424 33.8588 28.2158 39.0635C25.4893 44.268 24.6253 50.2486 25.7686 56.0117C26.912 61.775 29.9939 66.9737 34.501 70.7432C39.008 74.5126 44.6693 76.6261 50.5439 76.7324C56.4185 76.8387 62.1525 74.932 66.793 71.3281C71.2884 67.8369 74.4953 62.9571 75.9199 57.457L76.0518 56.9229C76.098 56.681 76.191 56.4502 76.3262 56.2441C76.4665 56.0302 76.6488 55.847 76.8623 55.7061C77.0759 55.5651 77.3164 55.4688 77.5684 55.4238C77.8203 55.3789 78.079 55.386 78.3281 55.4443C78.5774 55.5028 78.8128 55.6113 79.0186 55.7637C79.2242 55.916 79.3967 56.1088 79.5254 56.3301C79.654 56.5514 79.736 56.7976 79.7666 57.0518C79.7971 57.3057 79.7756 57.5633 79.7031 57.8086C78.1933 64.2763 74.5361 70.0417 69.3271 74.1631C64.111 78.29 57.6483 80.5235 50.9971 80.499V80.5L50.9961 80.499L50.9951 80.5V80.499C45.9423 80.4982 40.9742 79.2005 36.5674 76.7285C32.1601 74.2562 28.4619 70.6929 25.8271 66.3809C23.1924 62.0687 21.7093 57.1514 21.5205 52.1016C21.3318 47.0518 22.4436 42.0378 24.749 37.541C27.0545 33.0444 30.4763 29.2153 34.6865 26.4209C38.8969 23.6265 43.7548 21.9609 48.7939 21.583Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n<path d=\"M77.0437 28.5145L76.6902 38.2694L76.6726 38.7684L76.1726 38.7509L66.4119 38.3973L65.2058 38.3534L66.0896 37.5311L76.2039 28.1298L77.0877 27.3085L77.0437 28.5145Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=hover, shape=circle, size=small": {
+    "id": "256:21558",
+    "file": "bet62-61ee0.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=arrow-icon, state=hover, shape=square, size=small": {
+    "id": "256:21563",
+    "svg": "<svg width=\"72\" height=\"72\" viewBox=\"0 0 72 72\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-256-21563-path-1-outside-1_256_21563\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"72\" height=\"72\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"72\" height=\"72\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\" fill=\"var(--button-background-hover)\"/>\n<path d=\"M9 1V2H63V1V0H9V1ZM71 9H70V63H71H72V9H71ZM63 71V70H9V71V72H63V71ZM1 63H2V9H1H0V63H1ZM9 71V70C5.13401 70 2 66.866 2 63H1H0C0 67.9706 4.02944 72 9 72V71ZM71 63H70C70 66.866 66.866 70 63 70V71V72C67.9706 72 72 67.9706 72 63H71ZM63 1V2C66.866 2 70 5.13401 70 9H71H72C72 4.02944 67.9706 0 63 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-256-21563-path-1-outside-1_256_21563)\"/>\n<path d=\"M34.4451 15.2585C37.998 14.9922 41.5597 15.6427 44.7889 17.1482C48.0182 18.6538 50.8074 20.9634 52.8875 23.8562C53.1147 24.172 53.2071 24.566 53.1443 24.95C53.0816 25.3338 52.8683 25.677 52.5526 25.9041C52.2368 26.1311 51.8436 26.2236 51.4598 26.1609C51.076 26.0982 50.7328 25.8857 50.5057 25.5701C48.1234 22.2595 44.6793 19.8635 40.7469 18.781C36.8146 17.6987 32.6303 17.9949 28.8895 19.6199C25.1486 21.2449 22.0761 24.1008 20.1834 27.7136C18.2907 31.3265 17.6915 35.4786 18.4852 39.4792C19.2789 43.4799 21.4181 47.0882 24.5467 49.7048C27.6754 52.3215 31.6054 53.7892 35.6834 53.863C39.7613 53.9368 43.7415 52.6127 46.9627 50.1111C50.184 47.6093 52.4524 44.0804 53.3904 40.1111C53.4269 39.925 53.4983 39.7473 53.6024 39.5886C53.7118 39.4217 53.8547 39.2787 54.0213 39.1687C54.1879 39.0588 54.3756 38.984 54.5721 38.949C54.7684 38.914 54.9697 38.9201 55.1639 38.9656C55.3582 39.0112 55.5415 39.0958 55.702 39.2146C55.8624 39.3334 55.9972 39.4835 56.0975 39.656C56.1977 39.8284 56.2611 40.0196 56.285 40.2175C56.3076 40.4057 56.2919 40.5964 56.242 40.7791L56.243 40.78C55.1813 45.3487 52.6 49.4215 48.9217 52.3318C45.2439 55.2416 40.6875 56.8158 35.9979 56.7986V56.7996L35.9969 56.7986L35.9959 56.7996V56.7986C32.4335 56.7979 28.931 55.8833 25.824 54.1404C22.7165 52.3972 20.1085 49.8849 18.2508 46.8445C16.3932 43.8041 15.3478 40.3376 15.2147 36.7771C15.0816 33.2165 15.8655 29.6812 17.491 26.5105C19.1166 23.3399 21.5292 20.64 24.4979 18.6697C27.4666 16.6993 30.892 15.5249 34.4451 15.2585Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n<path d=\"M54.3804 20.2657L54.1333 27.0939L54.1148 27.5939L53.6158 27.5753L46.7827 27.3282L45.5767 27.2843L46.4605 26.462L53.5406 19.881L54.4243 19.0597L54.3804 20.2657Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=pressed, shape=circle, size=large": {
+    "id": "12:1148",
+    "file": "bet62-4ea31.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=stop-icon, state=pressed, shape=circle, size=large": {
+    "id": "102:2023",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-2367f.svg\" alt=\"\"><i style=\"position:absolute;left:35.0px;top:35.0px;width:32.0px;height:32.0px;border-radius:var(--border-radius-40);background:var(--surface-background-footer)\"></i>"
+  },
+  "type=play-icon, state=pressed, shape=circle, size=small": {
+    "id": "71:2771",
+    "file": "bet62-f6ea6.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=play-icon, state=pressed, shape=square, size=large": {
+    "id": "12:1151",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-12-1151-path-1-outside-1_12_1151\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--color-button-focus)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-12-1151-path-1-outside-1_12_1151)\"/>\n<path d=\"M70 51L42.3636 70L42.3636 32L70 51Z\" fill=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=pressed, shape=square, size=small": {
+    "id": "71:2774",
+    "svg": "<svg width=\"72\" height=\"72\" viewBox=\"0 0 72 72\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-71-2774-path-1-outside-1_71_2774\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"72\" height=\"72\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"72\" height=\"72\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\" fill=\"var(--color-button-focus)\"/>\n<path d=\"M9 1V2H63V1V0H9V1ZM71 9H70V63H71H72V9H71ZM63 71V70H9V71V72H63V71ZM1 63H2V9H1H0V63H1ZM9 71V70C5.13401 70 2 66.866 2 63H1H0C0 67.9706 4.02944 72 9 72V71ZM71 63H70C70 66.866 66.866 70 63 70V71V72C67.9706 72 72 67.9706 72 63H71ZM63 1V2C66.866 2 70 5.13401 70 9H71H72C72 4.02944 67.9706 0 63 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-71-2774-path-1-outside-1_71_2774)\"/>\n<path d=\"M49.3 36L29.9545 49.3L29.9545 22.7L49.3 36Z\" fill=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=pressed, shape=circle, size=large": {
+    "id": "12:1164",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-7c062.svg\" alt=\"\"><img src=\"@ASSET@bet62-da382.svg\" alt=\"\" style=\"position:absolute;left:21.0px;top:21.0px\">"
+  },
+  "type=arrow-icon, state=pressed, shape=circle, size=small": {
+    "id": "71:2787",
+    "file": "bet62-75181.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=arrow-icon, state=pressed, shape=square, size=large": {
+    "id": "12:1169",
+    "svg": "<svg width=\"102\" height=\"102\" viewBox=\"0 0 102 102\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-12-1169-path-1-outside-1_12_1169\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"102\" height=\"102\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"102\" height=\"102\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H93C97.4183 1 101 4.58172 101 9V93C101 97.4183 97.4183 101 93 101H9C4.58172 101 1 97.4183 1 93V9Z\" fill=\"var(--color-button-focus)\"/>\n<path d=\"M9 1V2H93V1V0H9V1ZM101 9H100V93H101H102V9H101ZM93 101V100H9V101V102H93V101ZM1 93H2V9H1H0V93H1ZM9 101V100C5.13401 100 2 96.866 2 93H1H0C0 97.9706 4.02944 102 9 102V101ZM101 93H100C100 96.866 96.866 100 93 100V101V102C97.9706 102 102 97.9706 102 93H101ZM93 1V2C96.866 2 100 5.13401 100 9H101H102C102 4.02944 97.9706 0 93 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-12-1169-path-1-outside-1_12_1169)\"/>\n<path d=\"M48.7939 21.583C53.8332 21.2052 58.8858 22.1283 63.4658 24.2637C68.0456 26.399 72.0001 29.6748 74.9502 33.7773C75.2414 34.1823 75.3605 34.6865 75.2803 35.1787C75.1999 35.6711 74.9265 36.112 74.5215 36.4033C74.1165 36.6945 73.6124 36.8128 73.1201 36.7324C72.6279 36.652 72.1878 36.3795 71.8965 35.9746C68.4647 31.2055 63.5037 27.7547 57.8389 26.1953C52.174 24.636 46.1459 25.0614 40.7568 27.4023C35.3677 29.7434 30.9424 33.8588 28.2158 39.0635C25.4893 44.268 24.6253 50.2486 25.7686 56.0117C26.912 61.775 29.9939 66.9737 34.501 70.7432C39.008 74.5126 44.6693 76.6261 50.5439 76.7324C56.4185 76.8387 62.1525 74.932 66.793 71.3281C71.2884 67.8369 74.4953 62.9571 75.9199 57.457L76.0518 56.9229C76.098 56.681 76.191 56.4502 76.3262 56.2441C76.4665 56.0302 76.6488 55.847 76.8623 55.7061C77.0759 55.5651 77.3164 55.4688 77.5684 55.4238C77.8203 55.3789 78.079 55.386 78.3281 55.4443C78.5774 55.5028 78.8128 55.6113 79.0186 55.7637C79.2242 55.916 79.3967 56.1088 79.5254 56.3301C79.654 56.5514 79.736 56.7976 79.7666 57.0518C79.7971 57.3057 79.7756 57.5633 79.7031 57.8086C78.1933 64.2763 74.5361 70.0417 69.3271 74.1631C64.111 78.29 57.6483 80.5235 50.9971 80.499V80.5L50.9961 80.499L50.9951 80.5V80.499C45.9423 80.4982 40.9742 79.2005 36.5674 76.7285C32.1601 74.2562 28.4619 70.6929 25.8271 66.3809C23.1924 62.0687 21.7093 57.1514 21.5205 52.1016C21.3318 47.0518 22.4436 42.0378 24.749 37.541C27.0545 33.0444 30.4763 29.2153 34.6865 26.4209C38.8969 23.6265 43.7548 21.9609 48.7939 21.583Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n<path d=\"M77.0437 28.5145L76.6902 38.2694L76.6726 38.7684L76.1726 38.7509L66.4119 38.3973L65.2058 38.3534L66.0896 37.5311L76.2039 28.1298L77.0877 27.3085L77.0437 28.5145Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=pressed, shape=square, size=small": {
+    "id": "71:2792",
+    "svg": "<svg width=\"72\" height=\"72\" viewBox=\"0 0 72 72\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<mask id=\"bet-71-2792-path-1-outside-1_71_2792\" maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"72\" height=\"72\" fill=\"black\">\n<rect fill=\"var(--color-button-focus)\" width=\"72\" height=\"72\"/>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\"/>\n</mask>\n<path d=\"M1 9C1 4.58172 4.58172 1 9 1H63C67.4183 1 71 4.58172 71 9V63C71 67.4183 67.4183 71 63 71H9C4.58172 71 1 67.4183 1 63V9Z\" fill=\"var(--color-button-focus)\"/>\n<path d=\"M9 1V2H63V1V0H9V1ZM71 9H70V63H71H72V9H71ZM63 71V70H9V71V72H63V71ZM1 63H2V9H1H0V63H1ZM9 71V70C5.13401 70 2 66.866 2 63H1H0C0 67.9706 4.02944 72 9 72V71ZM71 63H70C70 66.866 66.866 70 63 70V71V72C67.9706 72 72 67.9706 72 63H71ZM63 1V2C66.866 2 70 5.13401 70 9H71H72C72 4.02944 67.9706 0 63 0V1ZM9 1V0C4.02944 0 0 4.02944 0 9H1H2C2 5.13401 5.13401 2 9 2V1Z\" fill=\"var(--color-stroke-default)\" mask=\"url(#bet-71-2792-path-1-outside-1_71_2792)\"/>\n<path d=\"M34.4451 15.2585C37.998 14.9922 41.5597 15.6427 44.7889 17.1482C48.0182 18.6538 50.8074 20.9634 52.8875 23.8562C53.1147 24.172 53.2071 24.566 53.1443 24.95C53.0816 25.3338 52.8683 25.677 52.5526 25.9041C52.2368 26.1311 51.8436 26.2236 51.4598 26.1609C51.076 26.0982 50.7328 25.8857 50.5057 25.5701C48.1234 22.2595 44.6793 19.8635 40.7469 18.781C36.8146 17.6987 32.6303 17.9949 28.8895 19.6199C25.1486 21.2449 22.0761 24.1008 20.1834 27.7136C18.2907 31.3265 17.6915 35.4786 18.4852 39.4792C19.2789 43.4799 21.4181 47.0882 24.5467 49.7048C27.6754 52.3215 31.6054 53.7892 35.6834 53.863C39.7613 53.9368 43.7415 52.6127 46.9627 50.1111C50.184 47.6093 52.4524 44.0804 53.3904 40.1111C53.4269 39.925 53.4983 39.7473 53.6024 39.5886C53.7118 39.4217 53.8547 39.2787 54.0213 39.1687C54.1879 39.0588 54.3756 38.984 54.5721 38.949C54.7684 38.914 54.9697 38.9201 55.1639 38.9656C55.3582 39.0112 55.5415 39.0958 55.702 39.2146C55.8624 39.3334 55.9972 39.4835 56.0975 39.656C56.1977 39.8284 56.2611 40.0196 56.285 40.2175C56.3076 40.4057 56.2919 40.5964 56.242 40.7791L56.243 40.78C55.1813 45.3487 52.6 49.4215 48.9217 52.3318C45.2439 55.2416 40.6875 56.8158 35.9979 56.7986V56.7996L35.9969 56.7986L35.9959 56.7996V56.7986C32.4335 56.7979 28.931 55.8833 25.824 54.1404C22.7165 52.3972 20.1085 49.8849 18.2508 46.8445C16.3932 43.8041 15.3478 40.3376 15.2147 36.7771C15.0816 33.2165 15.8655 29.6812 17.491 26.5105C19.1166 23.3399 21.5292 20.64 24.4979 18.6697C27.4666 16.6993 30.892 15.5249 34.4451 15.2585Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n<path d=\"M54.3804 20.2657L54.1333 27.0939L54.1148 27.5939L53.6158 27.5753L46.7827 27.3282L45.5767 27.2843L46.4605 26.462L53.5406 19.881L54.4243 19.0597L54.3804 20.2657Z\" fill=\"var(--color-icon-default-dark)\" stroke=\"var(--color-icon-default-dark)\"/>\n</svg>\n",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=disabled, shape=circle, size=large": {
+    "id": "755:23753",
+    "file": "state-69379.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=stop-icon, state=disabled, shape=circle, size=large": {
+    "id": "755:23750",
+    "file": "state-ec32a.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=stop-icon, state=default, shape=circle, size=small": {
+    "id": "755:23800",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-213ba.svg\" alt=\"\"><i style=\"position:absolute;left:24.8px;top:24.8px;width:22.400000000000002px;height:22.400000000000002px;border-radius:var(--border-radius-40);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=stop-icon, state=pressed, shape=circle, size=small": {
+    "id": "755:23803",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-cefb4.svg\" alt=\"\"><i style=\"position:absolute;left:24.8px;top:24.8px;width:22.400000000000002px;height:22.400000000000002px;border-radius:var(--border-radius-40);background:var(--icon-color-default-dark)\"></i>"
+  },
+  "type=stop-icon, state=disabled, shape=circle, size=small": {
+    "id": "755:23806",
+    "file": "state-9f842.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=stop-icon, state=hover, shape=circle, size=small": {
+    "id": "755:23809",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-b93b7.svg\" alt=\"\"><i style=\"position:absolute;left:24.8px;top:24.8px;width:22.400000000000002px;height:22.400000000000002px;border-radius:var(--border-radius-40);background:var(--icon-color-default-dark)\"></i>"
+  },
+  "type=arrow-icon, state=disabled, shape=circle, size=small": {
+    "id": "755:23779",
+    "file": "state-5b0ba.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=disabled, shape=circle, size=large": {
+    "id": "755:23747",
+    "file": "state-c1ed8.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=disabled, shape=circle, size=small": {
+    "id": "755:23776",
+    "file": "state-be113.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=default, shape=circle, size=extra-small": {
+    "id": "825:6597",
+    "file": "bet62-7b957.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=play-icon, state=pressed, shape=circle, size=extra-small": {
+    "id": "825:6600",
+    "file": "bet62-e28a4.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=play-icon, state=disabled, shape=circle, size=extra-small": {
+    "id": "825:6603",
+    "file": "state-9f521.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=hover, shape=circle, size=extra-small": {
+    "id": "825:6606",
+    "file": "bet62-80a15.svg",
+    "x": -1,
+    "y": -1
+  },
+  "type=arrow-icon, state=default, shape=circle, size=extra-small": {
+    "id": "825:6609",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-f1228.svg\" alt=\"\"><img src=\"@ASSET@bet62-f19b6.svg\" alt=\"\" style=\"position:absolute;left:10.5px;top:10.5px\">"
+  },
+  "type=arrow-icon, state=pressed, shape=circle, size=extra-small": {
+    "id": "825:6615",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-94ff5.svg\" alt=\"\"><img src=\"@ASSET@bet62-89a97.svg\" alt=\"\" style=\"position:absolute;left:10.5px;top:10.5px\">"
+  },
+  "type=arrow-icon, state=disabled, shape=circle, size=extra-small": {
+    "id": "825:6621",
+    "file": "state-dd9ab.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=arrow-icon, state=hover, shape=circle, size=extra-small": {
+    "id": "825:6627",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-f00c3.svg\" alt=\"\"><img src=\"@ASSET@bet62-89a97.svg\" alt=\"\" style=\"position:absolute;left:10.5px;top:10.5px\">"
+  },
+  "type=stop-icon, state=default, shape=circle, size=extra-small": {
+    "id": "825:6636",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-f1228.svg\" alt=\"\"><i style=\"position:absolute;left:18.0px;top:18.0px;width:16.0px;height:16.0px;border-radius:var(--border-radius-20);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=stop-icon, state=pressed, shape=circle, size=extra-small": {
+    "id": "825:6642",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-5a8a1.svg\" alt=\"\"><i style=\"position:absolute;left:18.0px;top:18.0px;width:16.0px;height:16.0px;border-radius:var(--border-radius-20);background:var(--icon-color-default-dark)\"></i>"
+  },
+  "type=stop-icon, state=disabled, shape=circle, size=extra-small": {
+    "id": "825:6648",
+    "file": "state-06bb9.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=stop-icon, state=hover, shape=circle, size=extra-small": {
+    "id": "825:6654",
+    "x": -1,
+    "y": -1,
+    "html": "<img src=\"@ASSET@bet62-37178.svg\" alt=\"\"><i style=\"position:absolute;left:18.0px;top:18.0px;width:16.0px;height:16.0px;border-radius:var(--border-radius-20);background:var(--icon-color-default-dark)\"></i>"
+  },
+  "type=word, state=default, shape=circle, size=extra-small": {
+    "id": "825:6633",
+    "file": "state-f1228.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=pressed, shape=circle, size=extra-small": {
+    "id": "825:6639",
+    "file": "state-3e4e2.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=disabled, shape=circle, size=extra-small": {
+    "id": "825:6645",
+    "file": "state-f1228.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=hover, shape=circle, size=extra-small": {
+    "id": "825:6651",
+    "file": "state-37178.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=play-icon, state=focus, shape=circle, size=large": {
+    "id": "882:10153",
+    "file": "bet62-c1005.svg",
+    "x": -2,
+    "y": -2
+  },
+  "type=stop-icon, state=focus, shape=circle, size=large": {
+    "id": "882:10156",
+    "x": -2,
+    "y": -2,
+    "html": "<img src=\"@ASSET@bet62-34563.svg\" alt=\"\"><i style=\"position:absolute;left:36.0px;top:36.0px;width:32.0px;height:32.0px;border-radius:var(--border-radius-40);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=play-icon, state=focus, shape=circle, size=small": {
+    "id": "882:10166",
+    "file": "bet62-d4931.svg",
+    "x": -2,
+    "y": -2
+  },
+  "type=play-icon, state=focus, shape=circle, size=extra-small": {
+    "id": "882:10181",
+    "file": "bet62-2af25.svg",
+    "x": -2,
+    "y": -2
+  },
+  "type=arrow-icon, state=focus, shape=circle, size=large": {
+    "id": "882:10159",
+    "x": -2,
+    "y": -2,
+    "html": "<img src=\"@ASSET@bet62-34563.svg\" alt=\"\"><img src=\"@ASSET@bet62-19f71.svg\" alt=\"\" style=\"position:absolute;left:22.0px;top:22.0px\">"
+  },
+  "type=arrow-icon, state=focus, shape=circle, size=small": {
+    "id": "882:10169",
+    "file": "bet62-ceed6.svg",
+    "x": -2,
+    "y": -2
+  },
+  "type=arrow-icon, state=focus, shape=circle, size=extra-small": {
+    "id": "882:10184",
+    "x": -2,
+    "y": -2,
+    "html": "<img src=\"@ASSET@bet62-3294c.svg\" alt=\"\"><img src=\"@ASSET@bet62-f19b6.svg\" alt=\"\" style=\"position:absolute;left:11.5px;top:11.5px\">"
+  },
+  "type=word, state=default, shape=circle, size=small": {
+    "id": "71:2797",
+    "file": "state-213ba.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=focus, shape=circle, size=small": {
+    "id": "882:10175",
+    "file": "state-2ff2e.svg",
+    "x": -2.0,
+    "y": -2.0
+  },
+  "type=word, state=focus, shape=circle, size=extra-small": {
+    "id": "882:10190",
+    "file": "state-3294c.svg",
+    "x": -2.0,
+    "y": -2.0
+  },
+  "type=stop-icon, state=focus, shape=circle, size=small": {
+    "id": "882:10178",
+    "x": -2,
+    "y": -2,
+    "html": "<img src=\"@ASSET@bet62-2ff2e.svg\" alt=\"\"><i style=\"position:absolute;left:25.8px;top:25.8px;width:22.400000000000002px;height:22.400000000000002px;border-radius:var(--border-radius-40);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=stop-icon, state=focus, shape=circle, size=extra-small": {
+    "id": "882:10193",
+    "x": -2,
+    "y": -2,
+    "html": "<img src=\"@ASSET@bet62-3294c.svg\" alt=\"\"><i style=\"position:absolute;left:19.0px;top:19.0px;width:16.0px;height:16.0px;border-radius:var(--border-radius-20);background:var(--icon-color-default-light)\"></i>"
+  },
+  "type=word, state=pressed, shape=circle, size=small": {
+    "id": "71:2803",
+    "file": "state-73e51.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=disabled, shape=circle, size=small": {
+    "id": "755:23785",
+    "file": "state-213ba.svg",
+    "x": -1.0,
+    "y": -1.0
+  },
+  "type=word, state=hover, shape=circle, size=small": {
+    "id": "256:21555",
+    "file": "state-b93b7.svg",
+    "x": -1.0,
+    "y": -1.0
+  }
+}

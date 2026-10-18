@@ -1,0 +1,180 @@
+/* Figma button masters, 15 October 2026. State overrides are centralized here. */
+.button:not(.secondary){background:var(--button-background-primary-default);color:var(--button-text-color-primary);border:1px solid transparent;opacity:1;outline:none}
+.button:not(.secondary):not(:disabled):is([data-state=hover],:hover){background:var(--button-background-primary-hover);color:var(--button-text-color-primary);border-color:transparent}
+.button:not(.secondary):not(:disabled):is([data-state=pressed],:active){background:var(--button-background-primary-selected);color:var(--button-text-color-secondary);border-color:var(--stroke-color-strong)}
+.button:not(.secondary):not(:disabled):is([data-state=focus],:focus-visible){background:var(--button-background-primary-default);color:var(--button-text-color-primary);border:2px solid var(--stroke-color-focus);outline:none}
+.button:not(.secondary):disabled{background:var(--button-background-primary-disabled);color:var(--button-text-color-primary);border:1px solid transparent;opacity:var(--interaction-disabled-opacity)}
+.button.secondary{background:transparent;color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-strong);opacity:1;outline:none}
+.button.secondary:not(:disabled):is([data-state=hover],:hover){background:var(--button-background-secondary-hover);color:var(--button-text-color-primary);border-color:var(--stroke-color-strong)}
+.button.secondary:not(:disabled):is([data-state=pressed],:active){background:var(--button-background-secondary-selected);color:var(--button-text-color-primary);border-color:transparent}
+.button.secondary:not(:disabled):is([data-state=focus],:focus-visible){background:transparent;color:var(--button-text-color-secondary);border:2px solid var(--stroke-color-focus);outline:none}
+.button.secondary:disabled{background:transparent;color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-strong);opacity:var(--interaction-disabled-opacity)}
+.value{background:var(--button-background-secondary-default);color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-default);opacity:1;outline:none}
+.value:not(:disabled):is([data-state=hover],:hover){background:var(--button-background-secondary-hover);color:var(--button-text-color-primary);border-color:var(--stroke-color-strong)}
+.value:not(:disabled):is([data-state=pressed],:active){background:var(--button-background-secondary-selected);color:var(--button-text-color-primary);border-color:var(--stroke-color-default)}
+.value:not(:disabled):is([data-state=focus],:focus-visible){background:var(--button-background-secondary-default);color:var(--button-text-color-secondary);border:2px solid var(--stroke-color-focus);outline:none}
+.value:disabled{background:var(--button-background-secondary-disabled);color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-default);opacity:var(--interaction-disabled-opacity)}
+.replay-button{background:var(--button-background-secondary-default);color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-default);opacity:1;outline:none}
+.replay-button:not(:disabled):is([data-state=hover],:hover){background:var(--button-background-secondary-hover);color:var(--button-text-color-secondary);border-color:var(--stroke-color-strong)}
+.replay-button:not(:disabled):is([data-state=pressed],:active){background:var(--button-background-secondary-selected);color:var(--button-text-color-primary);border-color:var(--stroke-color-default)}
+.replay-button:not(:disabled):is([data-state=focus],:focus-visible){background:var(--button-background-secondary-default);color:var(--button-text-color-secondary);border:2px solid var(--stroke-color-focus);outline:none}
+.replay-button:disabled{background:var(--button-background-secondary-disabled);color:var(--button-text-color-secondary);border:1px solid var(--stroke-color-default);opacity:var(--interaction-disabled-opacity)}
+.button:disabled span,.wing:disabled .text,.bet.word:disabled>.bet-label{opacity:1}
+.value .icon{color:inherit}
+.replay-button .replay-light{display:block!important}
+.replay-button .replay-dark{display:none!important}
+.replay-button:not(:disabled):is([data-state=pressed],:active) .replay-light{display:none!important}
+.replay-button:not(:disabled):is([data-state=pressed],:active) .replay-dark{display:block!important}
+.wing{width:129px;margin-left:0}
+.wing.small{width:114px}
+.wing .wing-bg img,.wing.small .wing-bg img{transform:none;width:auto;height:auto}
+.wing .text{left:8px;width:93px}
+.wing.right .text{left:10px;width:70px}
+.wing.small .text{left:9px;width:76px}
+.wing.small.right .text{left:14px;width:70px}
+.wing .wing-arrow{left:101px}
+.wing.small .wing-arrow{left:85px;display:grid!important}
+.wing .wing-arrow img{width:24px;height:24px;transform:none}
+.wing .text small{color:var(--text-color-secondary)}
+.wing .text strong{color:var(--text-color-default)}
+.wing:not(:disabled):is([data-state=pressed],:active) .text :is(small,strong){color:var(--button-text-color-primary)}
+
+.bet>.bet-art{opacity:0!important}
+.bet>.bet-art-default{opacity:1!important}
+.bet:not(:disabled):is([data-state=hover],:hover)>.bet-art{opacity:0!important}
+.bet:not(:disabled):is([data-state=hover],:hover)>.bet-art-hover{opacity:1!important}
+.bet:not(:disabled):is([data-state=pressed],:active)>.bet-art{opacity:0!important}
+.bet:not(:disabled):is([data-state=pressed],:active)>.bet-art-pressed{opacity:1!important}
+.bet:not(:disabled):is([data-state=focus],:focus-visible)>.bet-art{opacity:0!important}
+.bet:not(:disabled):is([data-state=focus],:focus-visible)>.bet-art-focus{opacity:1!important}
+.bet:disabled>.bet-art{opacity:0!important}
+.bet:disabled>.bet-art-default{opacity:1!important}
+.bet:disabled{opacity:var(--interaction-disabled-opacity)}
+.bet:focus-visible{outline:none}
+.wing>.wing-bg{display:none!important}
+.wing>.wing-bg-default{display:block!important}
+.wing:not(:disabled):is([data-state=hover],:hover)>.wing-bg{display:none!important}
+.wing:not(:disabled):is([data-state=hover],:hover)>.wing-bg-hover{display:block!important}
+.wing:not(:disabled):is([data-state=pressed],:active)>.wing-bg{display:none!important}
+.wing:not(:disabled):is([data-state=pressed],:active)>.wing-bg-pressed{display:block!important}
+.wing:not(:disabled):is([data-state=focus],:focus-visible)>.wing-bg{display:none!important}
+.wing:not(:disabled):is([data-state=focus],:focus-visible)>.wing-bg-focus{display:block!important}
+.wing:disabled>.wing-bg{display:none!important}
+.wing:disabled>.wing-bg-disabled{display:block!important}
+.wing:disabled{opacity:var(--interaction-disabled-opacity)}
+.wing:focus-visible{outline:none}
+.round-control>.round-art{display:none!important}
+.round-control>.round-art-default{display:block!important}
+.round-control:not(:disabled):is([data-state=hover],:hover)>.round-art{display:none!important}
+.round-control:not(:disabled):is([data-state=hover],:hover)>.round-art-hover{display:block!important}
+.round-control:not(:disabled):is([data-state=pressed],:active)>.round-art{display:none!important}
+.round-control:not(:disabled):is([data-state=pressed],:active)>.round-art-pressed{display:block!important}
+.round-control:not(:disabled):is([data-state=focus],:focus-visible)>.round-art{display:none!important}
+.round-control:not(:disabled):is([data-state=focus],:focus-visible)>.round-art-focus{display:block!important}
+.round-control:disabled>.round-art{display:none!important}
+.round-control:disabled>.round-art-default{display:block!important}
+.round-control:disabled{opacity:var(--interaction-disabled-opacity)}
+.round-control:focus-visible{outline:none}
+.bonus-control>.bonus-background{display:none!important}
+.bonus-control>.bonus-background-default{display:block!important}
+.bonus-control:not(:disabled):is([data-state=hover],:hover)>.bonus-background{display:none!important}
+.bonus-control:not(:disabled):is([data-state=hover],:hover)>.bonus-background-hover{display:block!important}
+.bonus-control:not(:disabled):is([data-state=focus],:focus-visible)>.bonus-background{display:none!important}
+.bonus-control:not(:disabled):is([data-state=focus],:focus-visible)>.bonus-background-focus{display:block!important}
+.bonus-control:disabled>.bonus-background{display:none!important}
+.bonus-control:disabled>.bonus-background-default{display:block!important}
+.bonus-control:disabled{opacity:var(--interaction-disabled-opacity)}
+.bonus-control:focus-visible{outline:none}
+.bet-art img{display:block;max-width:none}
+.round-control{color:var(--button-text-color-secondary);font-size:var(--font-size-140);line-height:var(--line-height-200);font-weight:var(--font-weight-semibold);filter:none!important}
+.round-control .icon{color:inherit!important}
+.round-control:not(:disabled):is([data-state=hover],[data-state=pressed],:hover,:active){color:var(--button-text-color-primary)}
+.round-control:not(:disabled):is([data-state=focus],:focus-visible),.round-control:disabled{color:var(--button-text-color-secondary)}
+.round-art-focus{left:-2px!important;top:-2px!important}
+.bet.word{background:transparent!important;color:var(--button-text-color-secondary);border:0;opacity:1}
+.bet.word.large{background:var(--button-background-secondary-default)!important;border:1px solid var(--stroke-color-default)}
+.bet.word:not(:disabled):is([data-state=hover],:hover){color:var(--button-text-color-primary)}
+.bet.word.large:not(:disabled):is([data-state=hover],:hover){background:var(--button-background-secondary-hover)!important;border-color:var(--stroke-color-strong)}
+.bet.word:not(:disabled):is([data-state=pressed],:active){color:var(--button-text-color-primary)}
+.bet.word.large:not(:disabled):is([data-state=pressed],:active){background:var(--button-background-secondary-selected)!important;border-color:var(--stroke-color-strong)}
+.bet.word:not(:disabled):is([data-state=focus],:focus-visible),.bet.word:disabled{color:var(--button-text-color-secondary)}
+.bet.word.large:not(:disabled):is([data-state=focus],:focus-visible){background:var(--button-background-secondary-default)!important;border:2px solid var(--stroke-color-focus)}
+.bet.word.large:disabled{background:var(--button-background-secondary-default)!important}
+.bet.word .bet-label{position:relative;pointer-events:none}
+.bonus-control>.bonus-background{width:auto;height:auto}
+.bonus-control>.bonus-background-focus{left:-2px;top:-2px}
+.bonus-control .bonus-mark-hover{display:none}
+.bonus-control:not(.active-bonus):not(:disabled):is([data-state=hover],:hover){color:var(--button-text-color-secondary)}
+.bonus-control:not(:disabled):is([data-state=hover],:hover) .bonus-mark{display:none}
+.bonus-control:not(:disabled):is([data-state=hover],:hover) .bonus-mark-hover{display:block}
+.bonus-control:not(:disabled):is([data-state=focus],:focus-visible){color:var(--button-text-color-primary)}
+.bonus-control:not(:disabled):is([data-state=focus],:focus-visible) .bonus-mark{display:block}
+.bonus-control:not(:disabled):is([data-state=focus],:focus-visible) .bonus-mark-hover{display:none}
+.bet:disabled,.bet.word:disabled,.bet.word.extra-small:disabled{opacity:var(--interaction-disabled-opacity)}
+/* Explicit secondary text roles override legacy value selection selectors. */
+.value:not(:disabled):is([data-state=hover],[data-state=pressed],:hover,:active){color:var(--button-text-color-primary)!important}
+.value:not(:disabled):is([data-state=focus],:focus-visible){color:var(--button-text-color-secondary)!important}
+:host([name=primary-button]),:host([name=secondary-button]){min-width:min(167px,100%)}
+
+/* Latest hover text/icon changes from Figma, captured before this release. */
+.wing .wing-arrow-dark{display:none}
+.wing:not(:disabled):is([data-state=hover],[data-state=pressed],:hover,:active) .text :is(small,strong){color:var(--text-color-tertiary)}
+.wing:not(:disabled):is([data-state=hover],[data-state=pressed],:hover,:active) .wing-arrow-light{display:none}
+.wing:not(:disabled):is([data-state=hover],[data-state=pressed],:hover,:active) .wing-arrow-dark{display:block}
+.wing:not(:disabled):is([data-state=focus],:focus-visible) .text small{color:var(--text-color-secondary)}
+.wing:not(:disabled):is([data-state=focus],:focus-visible) .text strong{color:var(--text-color-default)}
+.wing:not(:disabled):is([data-state=focus],:focus-visible) .wing-arrow-light{display:block}
+.wing:not(:disabled):is([data-state=focus],:focus-visible) .wing-arrow-dark{display:none}
+.replay-button:not(:disabled):is([data-state=hover],:hover){color:var(--button-text-color-primary)}
+.replay-button:not(:disabled):is([data-state=hover],:hover) .replay-light{display:none!important}
+.replay-button:not(:disabled):is([data-state=hover],:hover) .replay-dark{display:block!important}
+.replay-button:not(:disabled):is([data-state=focus],:focus-visible){color:var(--button-text-color-secondary)}
+.replay-button:not(:disabled):is([data-state=focus],:focus-visible) .replay-light{display:block!important}
+.replay-button:not(:disabled):is([data-state=focus],:focus-visible) .replay-dark{display:none!important}
+/* Steppers are sibling buttons: their hit areas must drive the same wing feedback. */
+.wing-step-wrap:has(.wing-stepper button:not(:disabled):hover)>.wing:not(:disabled)>.wing-bg{display:none!important}
+.wing-step-wrap:has(.wing-stepper button:not(:disabled):hover)>.wing:not(:disabled)>.wing-bg-hover{display:block!important}
+.wing-step-wrap:has(.wing-stepper button:not(:disabled):hover)>.wing .text :is(small,strong){color:var(--text-color-tertiary)}
+.wing-step-wrap:has(.wing-stepper button:not(:disabled):hover)>.wing .wing-arrow-light{display:none}
+.wing-step-wrap:has(.wing-stepper button:not(:disabled):hover)>.wing .wing-arrow-dark{display:block}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing:not(:disabled)>.wing-bg{display:none!important}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing:not(:disabled)>.wing-bg-focus{display:block!important}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing .text small{color:var(--text-color-secondary)}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing .text strong{color:var(--text-color-default)}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing .wing-arrow-light{display:block}
+.wing-step-wrap:has(.wing-stepper button:focus-visible)>.wing .wing-arrow-dark{display:none}
+.wing-stepper button:focus-visible{outline:none}
+/* Press feedback takes precedence during activation, including keyboard activation. */
+.wing:not(:disabled):active>.wing-bg,.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing:not(:disabled)>.wing-bg{display:none!important}
+.wing:not(:disabled):active>.wing-bg-pressed,.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing:not(:disabled)>.wing-bg-pressed{display:block!important}
+.wing:not(.small):not(:disabled):is([data-state=pressed],:active) .text :is(small,strong),.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing:not(.small) .text :is(small,strong){color:var(--button-text-color-primary)}
+.wing.small:not(:disabled):active .text :is(small,strong),.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing.small .text :is(small,strong){color:var(--text-color-tertiary)}
+.wing:not(:disabled):active .wing-arrow-light,.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing .wing-arrow-light{display:none}
+.wing:not(:disabled):active .wing-arrow-dark,.wing-step-wrap:has(.wing-stepper button:not(:disabled):active)>.wing .wing-arrow-dark{display:block}
+
+/* Selection remains pressed when keyboard focus adds its independent outline. */
+.value[data-state=pressed]:not(:disabled):focus-visible{background:var(--button-background-secondary-selected);color:var(--button-text-color-primary)!important;border:2px solid var(--stroke-color-focus)}
+
+/* Control icon masters 860:9820. Exported vectors retain native dimensions. */
+.control-icon{display:block;position:relative;width:100px;height:100px}
+.control-icon.small{width:70px;height:70px}.control-icon.x-small{width:50px;height:50px}
+.control-icon img{position:absolute;display:block;max-width:none;width:auto;height:auto;left:0;top:0}
+.control-icon.arrow img{left:20px;top:20px}.control-icon.arrow.small img{left:13.7px;top:13.7px}.control-icon.arrow.x-small img{left:9.5px;top:9.5px}
+.control-icon.stop i{position:absolute;inset:34%;background:var(--icon-color-default-light);border-radius:var(--border-radius-40)}
+.control-icon.stop.x-small i{border-radius:var(--border-radius-20)}
+.balance .muted small{color:var(--text-color-default);opacity:var(--opacity-50)}
+.balance .muted strong{color:var(--text-color-secondary)}
+
+/* Disabled masters now bind their role-specific disabled background. */
+.bet-disabled-surface{display:none;position:absolute;inset:0;background:var(--button-background-secondary-disabled);border-radius:inherit;outline:var(--stroke-weight-100) solid var(--stroke-color-default);pointer-events:none}
+.bet.circle:disabled>.bet-art{opacity:0!important}.bet.circle:disabled>.bet-disabled-surface{display:block}
+.bet.word.large:disabled{background:transparent!important;border:0}
+.round-control:disabled>.round-art{display:none!important}
+.round-control:disabled{background:var(--button-background-secondary-disabled)!important;outline:var(--stroke-weight-100) solid var(--stroke-color-default)}
+/* Header masters 918:10765, shared with both game and replay headers. */
+:host .header-state-button,:host .header-buttons.round button{box-sizing:border-box;width:44px;height:44px;display:grid;place-items:center;padding:0;border-radius:var(--border-radius-full);border:var(--stroke-weight-100) solid var(--stroke-color-default);background:var(--button-background-secondary-default);color:var(--icon-color-default-light);outline:none}
+:host .header-state-button .icon,:host .header-buttons.round button .icon{color:inherit!important}
+:host .header-state-button:not(:disabled):is([data-state=hover],:hover),:host .header-buttons.round button:not(:disabled):hover{background:var(--button-background-secondary-hover);color:var(--icon-color-default-dark);border-color:var(--stroke-color-strong)}
+:host .header-state-button:not(:disabled):is([data-state=pressed],:active),:host .header-buttons.round button:not(:disabled):active{background:var(--button-background-secondary-selected);color:var(--icon-color-default-dark);border-color:var(--stroke-color-strong)}
+:host .header-state-button:not(:disabled):is([data-state=focus],:focus-visible),:host .header-buttons.round button:not(:disabled):focus-visible{background:var(--button-background-secondary-default);color:var(--icon-color-default-light);border:var(--stroke-weight-200) solid var(--stroke-color-focus);outline:none}
+:host .header-state-button:disabled,:host .header-buttons.round button:disabled{background:var(--button-background-secondary-disabled);color:var(--icon-color-default-light);border-color:var(--stroke-color-strong);opacity:var(--interaction-disabled-opacity)}

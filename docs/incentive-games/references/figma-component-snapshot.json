@@ -1,0 +1,821 @@
+{
+  "source": "[design reference omitted]",
+  "captured": "2026-09-19",
+  "nodes": [
+    {
+      "id": "437:52556",
+      "name": "balance",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 72,
+      "width": 390,
+      "height": 68,
+      "cornerRadius": 0,
+      "children": [
+        {
+          "id": "I437:52556;119:24767",
+          "name": "Frame 1167",
+          "type": "FRAME",
+          "x": 10,
+          "y": 12,
+          "width": 139,
+          "height": 44,
+          "cornerRadius": 8,
+          "children": [
+            {
+              "id": "I437:52556;119:24768",
+              "name": "Group 20",
+              "type": "GROUP",
+              "x": 0,
+              "y": 0,
+              "width": 67,
+              "height": 44
+            },
+            {
+              "id": "I437:52556;119:24774",
+              "name": "Frame 1168",
+              "type": "FRAME",
+              "x": 79,
+              "y": 10,
+              "width": 47,
+              "height": 24,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "I437:52556;353:45557",
+          "name": "Frame 1262",
+          "type": "FRAME",
+          "x": 217,
+          "y": 12,
+          "width": 163,
+          "height": 44,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I437:52556;119:24778",
+              "name": "Frame 1169",
+              "type": "FRAME",
+              "x": 67,
+              "y": 0,
+              "width": 44,
+              "height": 44,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I437:52556;353:45421",
+              "name": "Menu Icon Container",
+              "type": "FRAME",
+              "x": 119,
+              "y": 0,
+              "width": 44,
+              "height": 44,
+              "cornerRadius": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "437:52545",
+      "name": "Compliance-win-lose",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 44,
+      "width": 390,
+      "height": 20,
+      "cornerRadius": 0,
+      "children": [
+        {
+          "id": "I437:52545;43:6685",
+          "name": "Frame 689",
+          "type": "FRAME",
+          "x": 10,
+          "y": 2,
+          "width": 256.5,
+          "height": 16,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I437:52545;43:6765",
+              "name": "Game Name",
+              "type": "TEXT",
+              "x": 0,
+              "y": 0,
+              "width": 59,
+              "height": 16,
+              "characters": "Game Name",
+              "fontSize": 10,
+              "fontName": {
+                "family": "Inter",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "slnt": 0
+                }
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 16
+              }
+            },
+            {
+              "id": "I437:52545;43:6755",
+              "name": "Frame 1134",
+              "type": "FRAME",
+              "x": 75,
+              "y": 0,
+              "width": 112,
+              "height": 16,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "I437:52545;43:6692",
+          "name": "Frame 672",
+          "type": "FRAME",
+          "x": 333,
+          "y": 2,
+          "width": 47,
+          "height": 16,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I437:52545;43:6693",
+              "name": "Icons 16px",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 3,
+              "width": 10,
+              "height": 10,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I437:52545;43:6694",
+              "name": "+$4.00",
+              "type": "TEXT",
+              "x": 12,
+              "y": 0,
+              "width": 35,
+              "height": 16,
+              "characters": "+$4.00",
+              "fontSize": 10,
+              "fontName": {
+                "family": "Inter",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400,
+                  "slnt": 0
+                }
+              },
+              "lineHeight": {
+                "unit": "PIXELS",
+                "value": 16
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "437:52748",
+      "name": "value-pannel",
+      "type": "INSTANCE",
+      "x": 15,
+      "y": 405,
+      "width": 290,
+      "height": 256,
+      "cornerRadius": 0,
+      "children": [
+        {
+          "id": "I437:52748;151:26690",
+          "name": "Union",
+          "type": "BOOLEAN_OPERATION",
+          "x": 0,
+          "y": 0,
+          "width": 290,
+          "height": 255.75,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I437:52748;51:12759",
+              "name": "Rectangle 116",
+              "type": "RECTANGLE",
+              "x": 0,
+              "y": 0,
+              "width": 290,
+              "height": 245,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;151:26686",
+              "name": "Polygon 4",
+              "type": "POLYGON",
+              "x": 61.47590255737305,
+              "y": 255.75,
+              "width": 21.323530197143555,
+              "height": 17,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "I437:52748;51:12795",
+          "name": "Frame 1165",
+          "type": "FRAME",
+          "x": 10,
+          "y": 36,
+          "width": 270,
+          "height": 200,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I437:52748;51:12224",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": -20,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12225",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": -20,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12226",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": -20,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12767",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 18,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12768",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": 18,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12769",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": 18,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12215",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 56,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12216",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": 56,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12217",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": 56,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12206",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 94,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12207",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": 94,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12208",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": 94,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12197",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 132,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12198",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": 132,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12199",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": 132,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12188",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 0,
+              "y": 170,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12191",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 88,
+              "y": 170,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I437:52748;51:12194",
+              "name": "value",
+              "type": "INSTANCE",
+              "x": 176,
+              "y": 170,
+              "width": 80,
+              "height": 30,
+              "cornerRadius": 8
+            }
+          ]
+        },
+        {
+          "id": "I437:52748;51:12763",
+          "name": "Bet Amount",
+          "type": "TEXT",
+          "x": 10,
+          "y": 12,
+          "width": 63,
+          "height": 16,
+          "characters": "Bet Amount",
+          "fontSize": 11,
+          "fontName": {
+            "family": "Inter",
+            "style": "Semi Bold",
+            "variationSettings": {
+              "wght": 600,
+              "slnt": 0
+            }
+          },
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 16
+          }
+        },
+        {
+          "id": "I437:52748;199:31725",
+          "name": "Scrollbar",
+          "type": "FRAME",
+          "x": 274,
+          "y": 37,
+          "width": 6,
+          "height": 199,
+          "cornerRadius": 10,
+          "children": [
+            {
+              "id": "I437:52748;199:31726",
+              "name": "Rectangle 100",
+              "type": "RECTANGLE",
+              "x": 1,
+              "y": 1,
+              "width": 4,
+              "height": 102,
+              "cornerRadius": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "698:5291",
+      "name": "iPhone SE - Bet365 layout - 1st Step",
+      "type": "FRAME",
+      "x": 168,
+      "y": 239,
+      "width": 320,
+      "height": 568,
+      "cornerRadius": 0,
+      "children": [
+        {
+          "id": "698:5292",
+          "name": "Status Bar",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 20,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I698:5292;842:24164",
+              "name": ":eft",
+              "type": "FRAME",
+              "x": 4,
+              "y": 3,
+              "width": 65,
+              "height": 14,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I698:5292;842:24168",
+              "name": "9:41 AM",
+              "type": "TEXT",
+              "x": 136,
+              "y": 4,
+              "width": 48,
+              "height": 14,
+              "characters": "9:41 AM",
+              "fontSize": 12,
+              "fontName": {
+                "family": "SF Pro Text",
+                "style": "Semibold"
+              },
+              "lineHeight": {
+                "unit": "AUTO"
+              }
+            },
+            {
+              "id": "I698:5292;842:24169",
+              "name": "Right",
+              "type": "FRAME",
+              "x": 289,
+              "y": 2,
+              "width": 28,
+              "height": 14,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "698:5295",
+          "name": "Screen Shot 2026-03-31 at 10.16.44 1",
+          "type": "RECTANGLE",
+          "x": 0,
+          "y": 526,
+          "width": 320,
+          "height": 42,
+          "cornerRadius": 0
+        },
+        {
+          "id": "761:4630",
+          "name": "complete-controller",
+          "type": "FRAME",
+          "x": 16,
+          "y": 433,
+          "width": 289,
+          "height": 72,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "761:4631",
+              "name": "max bet progress",
+              "type": "INSTANCE",
+              "x": 2,
+              "y": 71,
+              "width": 5.999993324279785,
+              "height": 112,
+              "cornerRadius": 10
+            },
+            {
+              "id": "761:4632",
+              "name": "control",
+              "type": "FRAME",
+              "x": 175,
+              "y": 14,
+              "width": 115,
+              "height": 44,
+              "cornerRadius": 0
+            },
+            {
+              "id": "761:4641",
+              "name": "control",
+              "type": "FRAME",
+              "x": 0,
+              "y": 14,
+              "width": 115,
+              "height": 44,
+              "cornerRadius": 0
+            },
+            {
+              "id": "761:4650",
+              "name": "bet-button",
+              "type": "FRAME",
+              "x": 110,
+              "y": 1,
+              "width": 70,
+              "height": 70,
+              "cornerRadius": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "673:3961",
+      "name": "desktop controller - auto & turbo",
+      "type": "FRAME",
+      "x": 316,
+      "y": 1196,
+      "width": 834,
+      "height": 1194,
+      "cornerRadius": 0,
+      "children": [
+        {
+          "id": "673:3980",
+          "name": "last-win-notification",
+          "type": "INSTANCE",
+          "x": 32,
+          "y": -2.9118815291440114e-05,
+          "width": 1194,
+          "height": 32,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:3980;2617:7535",
+              "name": "Frame 1159",
+              "type": "FRAME",
+              "x": 10,
+              "y": 8,
+              "width": 69,
+              "height": 16,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I673:3980;2617:7539",
+              "name": "Frame 1160",
+              "type": "FRAME",
+              "x": 1055,
+              "y": 8,
+              "width": 129,
+              "height": 16,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "673:4543",
+          "name": "Status Bar",
+          "type": "INSTANCE",
+          "x": 834,
+          "y": 3.6455297959037125e-05,
+          "width": 1194,
+          "height": 44,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:4543;12:3833",
+              "name": "Container",
+              "type": "FRAME",
+              "x": 1092,
+              "y": 16,
+              "width": 68,
+              "height": 14,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I673:4543;12:3850",
+              "name": "Bars/Status/_/Time White",
+              "type": "FRAME",
+              "x": 20,
+              "y": 12,
+              "width": 187.1999969482422,
+              "height": 22,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "673:4565",
+          "name": "Compliance-win-lose",
+          "type": "INSTANCE",
+          "x": 790,
+          "y": 3.453199678915553e-05,
+          "width": 1194,
+          "height": 20,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:4565;43:6685",
+              "name": "Frame 689",
+              "type": "FRAME",
+              "x": 10,
+              "y": 2,
+              "width": 256.5,
+              "height": 16,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I673:4565;43:6692",
+              "name": "Frame 672",
+              "type": "FRAME",
+              "x": 1137,
+              "y": 2,
+              "width": 47,
+              "height": 16,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "673:4580",
+          "name": "Game Window / IG Pre-Play",
+          "type": "INSTANCE",
+          "x": 765,
+          "y": 3.3439213439123705e-05,
+          "width": 1194,
+          "height": 733,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:4580;798:4740",
+              "name": "Game View / Pre-Play",
+              "type": "INSTANCE",
+              "x": -18,
+              "y": -2,
+              "width": 1230,
+              "height": 738,
+              "cornerRadius": 0
+            }
+          ]
+        },
+        {
+          "id": "673:4583",
+          "name": "complete-controller",
+          "type": "INSTANCE",
+          "x": 163.99998474121094,
+          "y": 402,
+          "width": 390,
+          "height": 102,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:4583;437:54594",
+              "name": "Group 51",
+              "type": "GROUP",
+              "x": 16,
+              "y": -1,
+              "width": 229,
+              "height": 100
+            },
+            {
+              "id": "I673:4583;437:54858",
+              "name": "Frame 1271",
+              "type": "FRAME",
+              "x": 260,
+              "y": 24,
+              "width": 114,
+              "height": 50,
+              "cornerRadius": 0
+            },
+            {
+              "id": "I673:4583;437:54621",
+              "name": "max bet progress",
+              "type": "INSTANCE",
+              "x": 19,
+              "y": 88,
+              "width": 5.999992847442627,
+              "height": 126,
+              "cornerRadius": 10
+            }
+          ]
+        },
+        {
+          "id": "673:4614",
+          "name": "balance",
+          "type": "INSTANCE",
+          "x": 765,
+          "y": 2.000033378601074,
+          "width": 1192,
+          "height": 68,
+          "cornerRadius": 0,
+          "children": [
+            {
+              "id": "I673:4614;119:24767",
+              "name": "Frame 1167",
+              "type": "FRAME",
+              "x": 10,
+              "y": 12,
+              "width": 139,
+              "height": 44,
+              "cornerRadius": 8
+            },
+            {
+              "id": "I673:4614;353:45557",
+              "name": "Frame 1262",
+              "type": "FRAME",
+              "x": 1019,
+              "y": 12,
+              "width": 163,
+              "height": 44,
+              "cornerRadius": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exportedAssets": [
+    {
+      "file": "assets/icons/play-button.svg",
+      "nodeId": "I437:54624;437:54596"
+    },
+    {
+      "file": "assets/icons/turbo.svg",
+      "nodeId": "I437:54624;437:54598;22:791"
+    },
+    {
+      "file": "assets/icons/autoplay.svg",
+      "nodeId": "I437:54624;437:54597;22:791"
+    },
+    {
+      "file": "assets/icons/stake-background.svg",
+      "nodeId": "I437:54624;437:54595;437:54323"
+    },
+    {
+      "file": "assets/icons/stake-arrows.svg",
+      "nodeId": "I437:54624;437:54595;437:54326"
+    },
+    {
+      "file": "assets/icons/info-button.svg",
+      "nodeId": "I437:52556;119:24778"
+    },
+    {
+      "file": "assets/icons/menu-button.svg",
+      "nodeId": "I437:52556;353:45421"
+    }
+  ]
+}

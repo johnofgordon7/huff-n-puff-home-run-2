@@ -1,0 +1,739 @@
+{
+  "templateVersion": "1.0.0",
+  "game": "Huff n Puff Home Run",
+  "basis": "total return / full accepted paid cost",
+  "zeroCostPolicy": "Configure explicitly; never divide by zero",
+  "maxWin": 100,
+  "tiers": [
+    {
+      "id": "nice",
+      "min": 5,
+      "maxExclusive": 10
+    },
+    {
+      "id": "big",
+      "min": 10,
+      "maxExclusive": 25
+    },
+    {
+      "id": "mega",
+      "min": 25,
+      "maxExclusive": 50
+    },
+    {
+      "id": "epic",
+      "min": 50,
+      "maxExclusive": 100
+    },
+    {
+      "id": "legendary",
+      "min": 100,
+      "maxExclusive": null
+    }
+  ],
+  "screens": [
+    {
+      "id": "loading",
+      "title": "Loading",
+      "group": "Getting started",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "tutorial",
+      "title": "Tutorial \u00b7 select a bet",
+      "group": "Getting started",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "tutorial-objective",
+      "title": "Tutorial \u00b7 collect rewards",
+      "group": "Getting started",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "tutorial-hazards",
+      "title": "Tutorial \u00b7 hazards and finish",
+      "group": "Getting started",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "ready",
+      "title": "Ready",
+      "group": "Getting started",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "submitting",
+      "title": "Submitting bet",
+      "group": "Gameplay",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "accepted",
+      "title": "Bet accepted",
+      "group": "Gameplay",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "active",
+      "title": "Launch and flight",
+      "group": "Gameplay",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "hazard",
+      "title": "Seagull hazard",
+      "group": "Gameplay",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "resolving",
+      "title": "Landing and resolution",
+      "group": "Gameplay",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "loss",
+      "title": "No return",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 0
+    },
+    {
+      "id": "partial",
+      "title": "Partial return \u00b7 0.5\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 0.5
+    },
+    {
+      "id": "even",
+      "title": "Break-even \u00b7 1\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 1
+    },
+    {
+      "id": "small",
+      "title": "Small win \u00b7 2\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 2
+    },
+    {
+      "id": "nice",
+      "title": "Nice Win \u00b7 5\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 5
+    },
+    {
+      "id": "big",
+      "title": "Big Win \u00b7 10\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 10
+    },
+    {
+      "id": "mega",
+      "title": "Mega Win \u00b7 25\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 25
+    },
+    {
+      "id": "epic",
+      "title": "Epic Win \u00b7 50\u00d7",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 50
+    },
+    {
+      "id": "legendary",
+      "title": "Legendary Win \u00b7 100\u00d7 / maximum",
+      "group": "Results",
+      "kind": "result",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "multiplier": 100
+    },
+    {
+      "id": "miss",
+      "title": "Missed swing",
+      "group": "Results",
+      "kind": "round",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "outcome": "dead",
+      "note": ""
+    },
+    {
+      "id": "water",
+      "title": "Woodland pond",
+      "group": "Results",
+      "kind": "round",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "outcome": "water",
+      "note": ""
+    },
+    {
+      "id": "icicle",
+      "title": "Caught on tree stump \u00b7 no win",
+      "group": "Results",
+      "kind": "round",
+      "implementation": "working-local",
+      "note": "Flight \u2192 visible tree stump contact \u2192 caught hold \u2192 zero return \u2192 ready. No credits used in review.",
+      "verification": {
+        "status": "unverified",
+        "modelChecks": "passed: natural draw, zero payout, anchored catch, single settlement, repeated step; 30 round scenarios",
+        "limitation": "Browser interaction and rendering unavailable: static site has no supported managed preview server."
+      }
+    },
+    {
+      "id": "rock",
+      "title": "Rock collision (art preview)",
+      "group": "Results",
+      "kind": "round",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      },
+      "outcome": "rock",
+      "note": "Rock is animation-only; not in the current outcome table."
+    },
+    {
+      "id": "autoplay",
+      "title": "Autoplay setup",
+      "group": "Features",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "autoplay-active",
+      "title": "Autoplay active",
+      "group": "Features",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "autoplay-stopped",
+      "title": "Autoplay stopped",
+      "group": "Features",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "speed",
+      "title": "Speed \u00b7 normal / 2\u00d7 / 3\u00d7",
+      "group": "Features",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "load-error",
+      "title": "Load failure",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "funds",
+      "title": "Insufficient funds",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "rejected",
+      "title": "Bet rejected",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "timeout",
+      "title": "Unknown submission",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "checking",
+      "title": "Checking existing request",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "pending",
+      "title": "Still pending",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "connection",
+      "title": "Lost connection",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "restored",
+      "title": "Connection restored",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "offline",
+      "title": "Still offline",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Return to active round",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "resumed",
+      "title": "Resume same round",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "recovered-result",
+      "title": "Completed while away",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "expired",
+      "title": "Checkpoint unavailable",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "error",
+      "title": "Generic error",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "wallet-stale",
+      "title": "Balance unavailable",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "maintenance",
+      "title": "Service unavailable",
+      "group": "Recovery & errors",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "stake-selector",
+      "title": "Stake picker",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "rules",
+      "title": "Help and paytable",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "menu",
+      "title": "Menu",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "sound",
+      "title": "Sound settings",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "history",
+      "title": "Round history",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "tuning",
+      "title": "Game tuning",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    },
+    {
+      "id": "reduced-motion",
+      "title": "Reduced-motion win",
+      "group": "Controls",
+      "kind": "panel",
+      "implementation": "preview-only",
+      "verification": {
+        "status": "unverified",
+        "limitation": "Browser preview unavailable for static site"
+      }
+    }
+  ],
+  "conditionalScreens": [
+    "max",
+    "feature-selection",
+    "feature-confirmation",
+    "feature-entry",
+    "feature-active",
+    "feature-summary",
+    "autoplay",
+    "speed-settings",
+    "cashout-pending",
+    "cashout-accepted",
+    "cashout-rejected",
+    "session-expired",
+    "maintenance",
+    "free-round-awarded",
+    "free-round-summary"
+  ],
+  "assetFields": [
+    "id",
+    "path",
+    "screens",
+    "dimensions",
+    "format",
+    "alpha",
+    "pivot",
+    "sourcePath",
+    "replacementContract",
+    "provenance",
+    "license",
+    "provisional"
+  ],
+  "skill": "core-flow-testing",
+  "review": {
+    "entryLabel": "Outcomes",
+    "heading": "Core Flow Testing",
+    "modes": [
+      "screen",
+      "flow"
+    ],
+    "mutations": "isolated-fixtures-only"
+  },
+  "flows": [
+    {
+      "id": "first-visit",
+      "title": "First visit to result",
+      "steps": [
+        "tutorial",
+        "tutorial-objective",
+        "tutorial-hazards",
+        "ready",
+        "submitting",
+        "accepted",
+        "active",
+        "resolving",
+        "nice"
+      ]
+    },
+    {
+      "id": "insufficient-funds",
+      "title": "Insufficient funds recovery",
+      "steps": [
+        "funds",
+        "stake-selector",
+        "ready"
+      ]
+    },
+    {
+      "id": "unknown",
+      "title": "Unknown request \u2192 settled",
+      "steps": [
+        "timeout",
+        "checking",
+        "pending",
+        "checking",
+        "recovered-result",
+        "ready"
+      ]
+    },
+    {
+      "id": "reconnect",
+      "title": "Reconnect to active round",
+      "steps": [
+        "connection",
+        "checking",
+        "restored",
+        "resumed",
+        "active"
+      ]
+    },
+    {
+      "id": "return",
+      "title": "Return to active round",
+      "steps": [
+        "resume",
+        "checking",
+        "resumed",
+        "active"
+      ]
+    },
+    {
+      "id": "completed-away",
+      "title": "Completed while away",
+      "steps": [
+        "checking",
+        "recovered-result",
+        "ready"
+      ]
+    },
+    {
+      "id": "load-retry",
+      "title": "Failed load \u2192 retry",
+      "steps": [
+        "load-error",
+        "loading",
+        "ready"
+      ]
+    },
+    {
+      "id": "icicle-loss",
+      "title": "Tree stump catch \u2192 no win",
+      "steps": [
+        "ready",
+        "icicle",
+        "ready"
+      ]
+    }
+  ],
+  "flowNotes": "Adapt steps and branches to actual rules. ordinary-round small is one fixture branch, not a guaranteed win; include loss and applicable alternative result branches.",
+  "version": "1.0.0",
+  "notApplicable": {
+    "cash-out": "Launch game settles on landing",
+    "bonus-buy/free-bets": "No such mechanics",
+    "session-login": "Local demo without authentication"
+  },
+  "integration": "Local demo. Recovery screens are simulated presentations, not server-integrated.",
+  "assets": "asset-inventory.json"
+}

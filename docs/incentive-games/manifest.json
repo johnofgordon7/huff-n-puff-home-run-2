@@ -1,0 +1,27 @@
+{
+  "name": "incentive-games-design-system",
+  "version": "1.0.0",
+  "source": "[design reference omitted]",
+  "files": {
+    "references/acceptance.md": "aa1b3253ce9919efe8be7728b08bada65f4f649f0e747f3edcdf24212109a33a",
+    "references/figma-component-snapshot.json": "d646657b7222cc009b6df58eb1f38591d6040dd4b314da92ae58da400e33226a",
+    "references/implementation.md": "c257ea38991b1dbb0109ac2079cd2f3d8f37b6f1612dbd98d9e97b20739c9e8e",
+    "references/rules.md": "1852082022180fbd490064844ad34cdb7d9e202b982fb6b9926cb37fcc7f7956",
+    "references/source-map.md": "cf4e3f4f6a77e91b71904f7b503b7c44e32480c38d7bfcbb073a29d608093089",
+    "references/workspace-rollout.md": "9dd01bdfa5f6e277de60a9a66260110e8d6081e761fc59b7723c291ad8fd8f12",
+    "assets/desktop.png": "b3d973e3be3fa55d1801f1396f8891aa432158edfecc0512bcd648c324631d75",
+    "assets/icon.svg": "fbb6c7314886573cd56c3f86884a65afe3b5f4ce4bf1ee6baeeeb1fa50aea7a4",
+    "assets/icons/autoplay.svg": "3ae3adc878c5fcb7e30e4624efeace8a88987902381d6b9dd99b463890a05605",
+    "assets/icons/info-button.svg": "38fe2a270f09a6b34a17e8b9f161ac4b48db4d63bf82d90b1857978ee4b7fcb3",
+    "assets/icons/menu-button.svg": "6ca008817639e8966d9fee7f2b6749e0dfb881e061ddc4587cfb185baf15d8fc",
+    "assets/icons/play-button.svg": "15a6a0eb65b8f1b6dfef66f9a9570b609baef8b3a13e7fb73f1e9c78e6c6ca2c",
+    "assets/icons/stake-arrows.svg": "823aaf75a4ee3bcc2134640af40011cfeb654c89e97dd1f60d5475ba7ddea37e",
+    "assets/icons/stake-background.svg": "66573473f5c7886ff461a84b3e487aea6418bb6f7b2bebfcc6565ade072b540b",
+    "assets/icons/turbo.svg": "b2e886a0bc04ffe94ac26c2e3909557c7b72805fbd474551e965daad44908396",
+    "assets/ig-tokens.css": "a2484cc7fc36647e97a9f0d07f551320d0d42a2b81310c1b2a601dea6b6ce10e",
+    "assets/mobile.png": "e435fc9e541bc38dbdc3b5e1e73edea25310f19483e7afe5a19cc01e86c43bc7",
+    "assets/small-phone.png": "a3c622a13cafdf0642a417cd926f80b03f549db8ebeb415ad8e00af1bb236cee",
+    "assets/stake-picker.png": "9361fea099de54087ddd774a05eb2ce555e8ecce9957c8553260c4fcbe5fe247",
+    "assets/tokens.json": "37608d09252a7c093aae259a1b78d24402eb1f6b81a578fd3aa8801da464c647"
+  }
+}

@@ -1,0 +1,3519 @@
+{
+  "date": "2026-10-15",
+  "stats": {
+    "families": 60,
+    "definitions": 367,
+    "proposed": 56,
+    "review": 2,
+    "reference": 2
+  },
+  "components": [
+    {
+      "id": "12:767",
+      "name": "icon",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "icon": {
+          "type": "VARIANT",
+          "defaultValue": "autoplay",
+          "variantOptions": [
+            "autoplay",
+            "fast-forward",
+            "plus",
+            "minus",
+            "menu",
+            "arrow left",
+            "arrow right",
+            "close",
+            "updown",
+            "arrow up",
+            "arrow down",
+            "info",
+            "tutorial",
+            "music",
+            "user-history",
+            "sound-effects",
+            "exit-game",
+            "search",
+            "play",
+            "sm-arrow-down",
+            "sm-arrow-up",
+            "warning",
+            "infinite",
+            "tick"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:768",
+          "name": "icon=autoplay, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:772",
+          "name": "icon=autoplay, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:776",
+          "name": "icon=autoplay, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23569",
+          "name": "icon=autoplay, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:780",
+          "name": "icon=fast-forward, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:785",
+          "name": "icon=fast-forward, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:790",
+          "name": "icon=fast-forward, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23573",
+          "name": "icon=fast-forward, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:795",
+          "name": "icon=plus, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:799",
+          "name": "icon=close, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:803",
+          "name": "icon=updown, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:929",
+          "name": "icon=updown, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:933",
+          "name": "icon=updown, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23578",
+          "name": "icon=updown, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:806",
+          "name": "icon=close, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:810",
+          "name": "icon=close, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23581",
+          "name": "icon=close, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:814",
+          "name": "icon=plus, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:818",
+          "name": "icon=plus, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23585",
+          "name": "icon=plus, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:822",
+          "name": "icon=minus, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:825",
+          "name": "icon=minus, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:828",
+          "name": "icon=minus, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23589",
+          "name": "icon=minus, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:831",
+          "name": "icon=menu, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:836",
+          "name": "icon=menu, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:841",
+          "name": "icon=menu, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23592",
+          "name": "icon=menu, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:846",
+          "name": "icon=arrow left, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:851",
+          "name": "icon=arrow right, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2366",
+          "name": "icon=arrow up, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2406",
+          "name": "icon=arrow down, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "117:6910",
+          "name": "icon=info, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7956",
+          "name": "icon=tutorial, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7969",
+          "name": "icon=music, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7977",
+          "name": "icon=user-history, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7985",
+          "name": "icon=sound-effects, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7993",
+          "name": "icon=exit-game, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "206:14946",
+          "name": "icon=search, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "261:21579",
+          "name": "icon=infinite, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "388:8234",
+          "name": "icon=play, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16336",
+          "name": "icon=sm-arrow-down, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16352",
+          "name": "icon=sm-arrow-up, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "519:19716",
+          "name": "icon=warning, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "787:23824",
+          "name": "icon=tick, state=default",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "519:19722",
+          "name": "icon=warning, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "787:23826",
+          "name": "icon=tick, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "519:19726",
+          "name": "icon=warning, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "787:23828",
+          "name": "icon=tick, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23597",
+          "name": "icon=warning, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "787:23830",
+          "name": "icon=tick, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16346",
+          "name": "icon=sm-arrow-down, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16354",
+          "name": "icon=sm-arrow-up, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16350",
+          "name": "icon=sm-arrow-down, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23599",
+          "name": "icon=sm-arrow-down, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "466:16356",
+          "name": "icon=sm-arrow-up, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23601",
+          "name": "icon=sm-arrow-up, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "206:14955",
+          "name": "icon=search, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "261:21581",
+          "name": "icon=infinite, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "388:8238",
+          "name": "icon=play, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "206:14957",
+          "name": "icon=search, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23603",
+          "name": "icon=search, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "261:21583",
+          "name": "icon=infinite, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23605",
+          "name": "icon=infinite, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "388:8240",
+          "name": "icon=play, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23607",
+          "name": "icon=play, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7997",
+          "name": "icon=exit-game, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7999",
+          "name": "icon=exit-game, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23609",
+          "name": "icon=exit-game, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7989",
+          "name": "icon=sound-effects, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7981",
+          "name": "icon=user-history, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7983",
+          "name": "icon=user-history, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23611",
+          "name": "icon=user-history, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7973",
+          "name": "icon=music, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7975",
+          "name": "icon=music, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23613",
+          "name": "icon=music, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7965",
+          "name": "icon=tutorial, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7967",
+          "name": "icon=tutorial, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23615",
+          "name": "icon=tutorial, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2376",
+          "name": "icon=arrow up, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2411",
+          "name": "icon=arrow down, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "117:6915",
+          "name": "icon=info, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2386",
+          "name": "icon=arrow up, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23617",
+          "name": "icon=arrow up, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "111:2416",
+          "name": "icon=arrow down, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23622",
+          "name": "icon=arrow down, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "117:6920",
+          "name": "icon=info, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23627",
+          "name": "icon=info, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:856",
+          "name": "icon=arrow left, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:861",
+          "name": "icon=arrow right, state=hover",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:866",
+          "name": "icon=arrow left, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23629",
+          "name": "icon=arrow left, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "12:871",
+          "name": "icon=arrow right, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23634",
+          "name": "icon=arrow right, state=disabled",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "161:7991",
+          "name": "icon=sound-effects, state=focus",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "753:23639",
+          "name": "icon=sound-effects, state=disabled",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "width": 338,
+      "height": 998,
+      "description": "Shared game icons. Available states: default, hover and focus. Select an existing icon/state combination. Place icons within labelled controls; the artwork alone does not define the clickable area. Use the same artwork on mobile and desktop.",
+      "page": "Icons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "860:9820",
+      "name": "large icons",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "play",
+          "variantOptions": [
+            "play",
+            "arrow",
+            "stop"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "small",
+            "x-small"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "860:9817",
+          "name": "type=play, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "907:10594",
+          "name": "type=arrow, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "907:10645",
+          "name": "type=stop, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "907:10661",
+          "name": "type=stop, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "907:10665",
+          "name": "type=stop, size=x-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "907:10608",
+          "name": "type=arrow, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "907:10616",
+          "name": "type=arrow, size=x-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "860:9818",
+          "name": "type=play, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "860:9819",
+          "name": "type=play, size=x-small",
+          "width": 50,
+          "height": 50
+        }
+      ],
+      "width": 100,
+      "height": 100,
+      "description": "Figma control icons: play, arrow and stop in large, small and x-small sizes.",
+      "page": "Icons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "161:7882",
+      "name": "loading",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 100,
+      "height": 100,
+      "description": "Loading indicator artwork. Use while content is being fetched; animation and accessible loading text are supplied by the prototype. No animation behaviour is implied by this static component.",
+      "page": "Icons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "202:9469",
+      "name": "incentive-studios",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 100,
+      "height": 25.084239959716797,
+      "description": "Incentive Studios brand artwork. Preserve proportions and use an instance for shared branding.",
+      "page": "Icons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:1089",
+      "name": "control-button-secondary",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "shape": {
+          "type": "VARIANT",
+          "defaultValue": "round",
+          "variantOptions": [
+            "round",
+            "sm-round"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "focus",
+            "hover",
+            "disabled",
+            "pressed"
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "icon",
+          "variantOptions": [
+            "text",
+            "icon",
+            "bonus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1090",
+          "name": "shape=round, state=default, type=icon",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10073",
+          "name": "shape=round, state=focus, type=icon",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "102:2038",
+          "name": "shape=round, state=default, type=text",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10076",
+          "name": "shape=round, state=focus, type=text",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1093",
+          "name": "shape=sm-round, state=default, type=icon",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "882:10090",
+          "name": "shape=sm-round, state=focus, type=icon",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "263:21725",
+          "name": "shape=sm-round, state=pressed, type=icon",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "755:23719",
+          "name": "shape=sm-round, state=disabled, type=icon",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "263:21752",
+          "name": "shape=sm-round, state=hover, type=icon",
+          "width": 30,
+          "height": 30
+        },
+        {
+          "id": "12:1096",
+          "name": "shape=round, state=default, type=bonus",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "885:10220",
+          "name": "shape=round, state=hover, type=bonus",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10079",
+          "name": "shape=round, state=focus, type=bonus",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23696",
+          "name": "shape=round, state=disabled, type=bonus",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "466:16141",
+          "name": "shape=round, state=pressed, type=bonus",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1104",
+          "name": "shape=round, state=pressed, type=icon",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23722",
+          "name": "shape=round, state=disabled, type=icon",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "263:21755",
+          "name": "shape=round, state=hover, type=icon",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "102:2044",
+          "name": "shape=round, state=pressed, type=text",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23725",
+          "name": "shape=round, state=disabled, type=text",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "263:21758",
+          "name": "shape=round, state=hover, type=text",
+          "width": 50,
+          "height": 50
+        }
+      ],
+      "width": 522,
+      "height": 375,
+      "description": "Secondary control button for icon, text and bonus actions. Bonus states are exposed through type=bonus and type=active-bonus. Shape and interaction state are controlled by variants.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "415:9677",
+      "name": "replay-button",
+      "page": "Buttons",
+      "description": "",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "hover",
+            "pressed",
+            "disabled",
+            "default",
+            "focus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "415:9676",
+          "name": "state=default",
+          "width": 60,
+          "height": 21
+        },
+        {
+          "id": "415:9678",
+          "name": "state=hover",
+          "width": 60,
+          "height": 21
+        },
+        {
+          "id": "415:9682",
+          "name": "state=pressed",
+          "width": 60,
+          "height": 21
+        },
+        {
+          "id": "415:9686",
+          "name": "state=disabled",
+          "width": 60,
+          "height": 21
+        },
+        {
+          "id": "415:9690",
+          "name": "state=focus",
+          "width": 62,
+          "height": 23
+        }
+      ],
+      "width": 100,
+      "height": 225,
+      "type": "COMPONENT_SET",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "471:17213",
+      "name": "replay",
+      "page": "Buttons",
+      "description": "Binary selection with unchecked/checked variants. Pair with a clear label. Runtime toggling and keyboard focus are supplied by the prototype; separate focus and disabled variants are not defined in this set.",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "playing",
+          "variantOptions": [
+            "playing"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "471:17214",
+          "name": "state=playing",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "width": 64,
+      "height": 108,
+      "type": "COMPONENT_SET",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:1141",
+      "name": "control-bet-button",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "play-icon",
+          "variantOptions": [
+            "play-icon",
+            "arrow-icon",
+            "word",
+            "stop-icon"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "pressed",
+            "hover",
+            "disabled",
+            "focus"
+          ]
+        },
+        "shape": {
+          "type": "VARIANT",
+          "defaultValue": "circle",
+          "variantOptions": [
+            "circle"
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "small",
+            "extra-small"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1142",
+          "name": "type=play-icon, state=default, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "882:10153",
+          "name": "type=play-icon, state=focus, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "256:21521",
+          "name": "type=play-icon, state=hover, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "102:2020",
+          "name": "type=stop-icon, state=default, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "882:10156",
+          "name": "type=stop-icon, state=focus, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "256:21542",
+          "name": "type=stop-icon, state=hover, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2765",
+          "name": "type=play-icon, state=default, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "882:10166",
+          "name": "type=play-icon, state=focus, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6597",
+          "name": "type=play-icon, state=default, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10181",
+          "name": "type=play-icon, state=focus, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1148",
+          "name": "type=play-icon, state=pressed, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "755:23747",
+          "name": "type=play-icon, state=disabled, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "102:2023",
+          "name": "type=stop-icon, state=pressed, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "755:23750",
+          "name": "type=stop-icon, state=disabled, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2771",
+          "name": "type=play-icon, state=pressed, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6600",
+          "name": "type=play-icon, state=pressed, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23776",
+          "name": "type=play-icon, state=disabled, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6603",
+          "name": "type=play-icon, state=disabled, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "256:21549",
+          "name": "type=play-icon, state=hover, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6606",
+          "name": "type=play-icon, state=hover, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1154",
+          "name": "type=arrow-icon, state=default, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "882:10159",
+          "name": "type=arrow-icon, state=focus, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "256:21524",
+          "name": "type=arrow-icon, state=hover, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2777",
+          "name": "type=arrow-icon, state=default, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "882:10169",
+          "name": "type=arrow-icon, state=focus, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6609",
+          "name": "type=arrow-icon, state=default, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10184",
+          "name": "type=arrow-icon, state=focus, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1164",
+          "name": "type=arrow-icon, state=pressed, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "755:23753",
+          "name": "type=arrow-icon, state=disabled, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2787",
+          "name": "type=arrow-icon, state=pressed, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6615",
+          "name": "type=arrow-icon, state=pressed, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23779",
+          "name": "type=arrow-icon, state=disabled, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6621",
+          "name": "type=arrow-icon, state=disabled, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "256:21558",
+          "name": "type=arrow-icon, state=hover, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6627",
+          "name": "type=arrow-icon, state=hover, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1174",
+          "name": "type=word, state=default, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "882:10164",
+          "name": "type=word, state=focus, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "256:21529",
+          "name": "type=word, state=hover, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2797",
+          "name": "type=word, state=default, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "882:10175",
+          "name": "type=word, state=focus, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6633",
+          "name": "type=word, state=default, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10190",
+          "name": "type=word, state=focus, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23800",
+          "name": "type=stop-icon, state=default, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "882:10178",
+          "name": "type=stop-icon, state=focus, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6636",
+          "name": "type=stop-icon, state=default, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "882:10193",
+          "name": "type=stop-icon, state=focus, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "12:1180",
+          "name": "type=word, state=pressed, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "755:23758",
+          "name": "type=word, state=disabled, shape=circle, size=large",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "71:2803",
+          "name": "type=word, state=pressed, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6639",
+          "name": "type=word, state=pressed, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23803",
+          "name": "type=stop-icon, state=pressed, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6642",
+          "name": "type=stop-icon, state=pressed, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23785",
+          "name": "type=word, state=disabled, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6645",
+          "name": "type=word, state=disabled, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23806",
+          "name": "type=stop-icon, state=disabled, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6648",
+          "name": "type=stop-icon, state=disabled, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "256:21555",
+          "name": "type=word, state=hover, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6651",
+          "name": "type=word, state=hover, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        },
+        {
+          "id": "755:23809",
+          "name": "type=stop-icon, state=hover, shape=circle, size=small",
+          "width": 70,
+          "height": 70
+        },
+        {
+          "id": "825:6654",
+          "name": "type=stop-icon, state=hover, shape=circle, size=extra-small",
+          "width": 50,
+          "height": 50
+        }
+      ],
+      "width": 929,
+      "height": 595,
+      "description": "Main game action control. Play, stop, arrow and word variants, large, small and extra-small circles, with default, hover, pressed and disabled states. The game supplies actions and running state.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:1199",
+      "name": "control-button-primary-lg",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "side": {
+          "type": "VARIANT",
+          "defaultValue": "left",
+          "variantOptions": [
+            "left",
+            "right"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "focus",
+            "disabled",
+            "pressed",
+            "hover"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1200",
+          "name": "side=left, state=default",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "885:10294",
+          "name": "side=left, state=pressed",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "885:10250",
+          "name": "side=left, state=hover",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "755:23648",
+          "name": "side=left, state=disabled",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "12:1209",
+          "name": "side=left, state=focus",
+          "width": 133,
+          "height": 48
+        },
+        {
+          "id": "12:1218",
+          "name": "side=right, state=default",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "885:10303",
+          "name": "side=right, state=pressed",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "885:10259",
+          "name": "side=right, state=hover",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "755:23659",
+          "name": "side=right, state=disabled",
+          "width": 129,
+          "height": 46.0000114440918
+        },
+        {
+          "id": "12:1227",
+          "name": "side=right, state=focus",
+          "width": 135,
+          "height": 50
+        }
+      ],
+      "width": 169,
+      "height": 395,
+      "description": "Large side control for the existing controller. Choose left/right and default/focus. Supply a short field label and its current value. Keep both readable on one line; currency, maximum amount and translated-label limits have not been validated. Used on mobile and desktop according to available game width.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "71:2602",
+      "name": "control-button-primary-sm",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "side": {
+          "type": "VARIANT",
+          "defaultValue": "left",
+          "variantOptions": [
+            "left",
+            "right"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "focus",
+            "disabled",
+            "hover",
+            "pressed"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "71:2601",
+          "name": "side=left, state=default",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "885:10338",
+          "name": "side=left, state=hover",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "885:10382",
+          "name": "side=left, state=pressed",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "755:23681",
+          "name": "side=left, state=disabled",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "71:2613",
+          "name": "side=left, state=focus",
+          "width": 117,
+          "height": 46
+        },
+        {
+          "id": "71:2603",
+          "name": "side=right, state=default",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "885:10347",
+          "name": "side=right, state=hover",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "885:10391",
+          "name": "side=right, state=pressed",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "755:23670",
+          "name": "side=right, state=disabled",
+          "width": 114,
+          "height": 44
+        },
+        {
+          "id": "71:2623",
+          "name": "side=right, state=focus",
+          "width": 117,
+          "height": 46
+        }
+      ],
+      "width": 155,
+      "height": 404,
+      "description": "Compact side control for the existing controller. Choose left/right and default/focus. Keep the label and value readable on one line. Example amounts are illustrative, not a validated maximum. Used on mobile and desktop according to available game width.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21256",
+      "name": "bet-value",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "Small",
+          "variantOptions": [
+            "Small",
+            "Large"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "focus",
+            "hover",
+            "disabled",
+            "pressed"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21257",
+          "name": "size=Small, state=default",
+          "width": 80,
+          "height": 30
+        },
+        {
+          "id": "261:21628",
+          "name": "size=Small, state=hover",
+          "width": 80,
+          "height": 30
+        },
+        {
+          "id": "825:5482",
+          "name": "size=Small, state=disabled",
+          "width": 80,
+          "height": 30
+        },
+        {
+          "id": "213:21259",
+          "name": "size=Large, state=default",
+          "width": 160,
+          "height": 30
+        },
+        {
+          "id": "261:21630",
+          "name": "size=Large, state=hover",
+          "width": 160,
+          "height": 30
+        },
+        {
+          "id": "825:5484",
+          "name": "size=Large, state=disabled",
+          "width": 160,
+          "height": 30
+        },
+        {
+          "id": "213:21261",
+          "name": "size=Large, state=pressed",
+          "width": 160,
+          "height": 30
+        },
+        {
+          "id": "825:5516",
+          "name": "size=Large, state=focus",
+          "width": 160,
+          "height": 30
+        },
+        {
+          "id": "213:21263",
+          "name": "size=Small, state=pressed",
+          "width": 80,
+          "height": 30
+        },
+        {
+          "id": "825:5518",
+          "name": "size=Small, state=focus",
+          "width": 80,
+          "height": 30
+        }
+      ],
+      "width": 375,
+      "height": 164,
+      "description": "Selectable bet amount. Sizes: Small and Large. Visual states: default, hover and focus. Values and allowed stakes are supplied by the game. Preserve one-line values; maximum currency and digit lengths remain to be validated.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21336",
+      "name": "button-small",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "disabled",
+            "focus"
+          ]
+        },
+        "icon": {
+          "type": "VARIANT",
+          "defaultValue": "no",
+          "variantOptions": [
+            "no",
+            "yes"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21337",
+          "name": "state=default, icon=no",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "261:21601",
+          "name": "state=default, icon=yes",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "260:21573",
+          "name": "state=hover, icon=no",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "825:5471",
+          "name": "state=disabled, icon=no",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "261:21603",
+          "name": "state=hover, icon=yes",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "825:5473",
+          "name": "state=disabled, icon=yes",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "213:21339",
+          "name": "state=pressed, icon=no",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "825:5505",
+          "name": "state=focus, icon=no",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "261:21605",
+          "name": "state=pressed, icon=yes",
+          "width": 65,
+          "height": 32
+        },
+        {
+          "id": "825:5507",
+          "name": "state=focus, icon=yes",
+          "width": 65,
+          "height": 32
+        }
+      ],
+      "width": 206,
+      "height": 199,
+      "description": "Small selection button with default, hover and focus states. Used for autoplay rounds and other compact choices. Values and actions come from the consuming game.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21341",
+      "name": "primary-button",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Label#219:16": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "pressed",
+            "disabled",
+            "hover",
+            "focus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21342",
+          "name": "state=default",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21344",
+          "name": "state=pressed",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21346",
+          "name": "state=disabled",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21348",
+          "name": "state=hover",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21350",
+          "name": "state=focus",
+          "width": 167,
+          "height": 44
+        }
+      ],
+      "width": 207,
+      "height": 340,
+      "description": "Primary action button. Change the exposed Label text. Visual states: default, hover, focus, pressed and disabled. Hover is for a pointer, focus identifies keyboard focus, and pressed represents activation. Implement disabled behaviour in the prototype. Use a concise one-line action label; a numeric character limit has not been validated.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21352",
+      "name": "secondary-button",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Label#219:20": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "pressed",
+            "disabled",
+            "hover",
+            "focus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21353",
+          "name": "state=default",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21355",
+          "name": "state=pressed",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21357",
+          "name": "state=disabled",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21359",
+          "name": "state=hover",
+          "width": 167,
+          "height": 44
+        },
+        {
+          "id": "213:21361",
+          "name": "state=focus",
+          "width": 167,
+          "height": 44
+        }
+      ],
+      "width": 207,
+      "height": 340,
+      "description": "Secondary action button. Change the exposed Label text. Visual states: default, hover, focus, pressed and disabled. Hover is for a pointer, focus identifies keyboard focus, and pressed represents activation. Implement disabled behaviour in the prototype. Use a concise one-line action label; a numeric character limit has not been validated.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21363",
+      "name": "switch",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21364",
+          "name": "state=off",
+          "width": 44,
+          "height": 24
+        },
+        {
+          "id": "213:21366",
+          "name": "state=on",
+          "width": 44,
+          "height": 24
+        }
+      ],
+      "width": 84,
+      "height": 108,
+      "description": "Binary setting with off/on variants. Pair with a clear label describing the setting. Runtime state and persistence are supplied by the prototype. Hover, focus and disabled variants are not defined in this set.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21368",
+      "name": "menu-item",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "icon": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "switch": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21369",
+          "name": "icon=yes, switch=yes",
+          "width": 210,
+          "height": 44
+        },
+        {
+          "id": "213:21374",
+          "name": "icon=no, switch=no",
+          "width": 210,
+          "height": 44
+        },
+        {
+          "id": "213:21377",
+          "name": "icon=no, switch=yes",
+          "width": 210,
+          "height": 44
+        },
+        {
+          "id": "213:21381",
+          "name": "icon=yes, switch=no",
+          "width": 210,
+          "height": 44
+        }
+      ],
+      "width": 261,
+      "height": 264,
+      "description": "Menu row with independent icon and switch options (yes/no). All four combinations exist. Use the switch for a setting and a plain row for navigation/actions as appropriate. Keep the label concise; long and translated labels need fit checks. Behaviour is supplied by the prototype.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21385",
+      "name": "balance",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "content": {
+          "type": "VARIANT",
+          "defaultValue": "Balance",
+          "variantOptions": [
+            "Balance",
+            "Free Bet Credits",
+            "Free Bets"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21386",
+          "name": "content=Balance",
+          "width": 139,
+          "height": 44
+        },
+        {
+          "id": "213:21396",
+          "name": "content=Free Bet Credits",
+          "width": 137,
+          "height": 44
+        },
+        {
+          "id": "213:21406",
+          "name": "content=Free Bets",
+          "width": 137,
+          "height": 44
+        }
+      ],
+      "width": 179,
+      "height": 219,
+      "description": "Account value display. Content variants: Balance, Free Bet Credits and Free Bets. Supply currency, amount or count from the game. Preserve the currency and full value; displayed samples do not establish a maximum supported amount. Long values and localisation still require fit checks.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "213:21416",
+      "name": "checkbox",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "unchecked",
+          "variantOptions": [
+            "unchecked",
+            "checked"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "213:21417",
+          "name": "state=unchecked",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "213:21419",
+          "name": "state=checked",
+          "width": 24,
+          "height": 24
+        }
+      ],
+      "width": 64,
+      "height": 108,
+      "description": "Binary selection with unchecked/checked variants. Pair with a clear label. Runtime toggling and keyboard focus are supplied by the prototype; separate focus and disabled variants are not defined in this set.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "220:6614",
+      "name": "control-interaction",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Control#220:5": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "12:1142",
+          "preferredValues": []
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "pressed",
+            "disabled"
+          ]
+        },
+        "shape": {
+          "type": "VARIANT",
+          "defaultValue": "round",
+          "variantOptions": [
+            "round"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "220:6574",
+          "name": "state=default, shape=round",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "220:6578",
+          "name": "state=hover, shape=round",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "220:6580",
+          "name": "state=focus, shape=round",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "220:6582",
+          "name": "state=pressed, shape=round",
+          "width": 100,
+          "height": 100
+        },
+        {
+          "id": "220:6584",
+          "name": "state=disabled, shape=round",
+          "width": 100,
+          "height": 100
+        }
+      ],
+      "width": 724,
+      "height": 175,
+      "description": "Optional interaction wrapper awaiting product review. Currently supports round shape only, with default, hover, focus, pressed and disabled variants. Swap the exposed Control instance. It is not the interaction contract for game-control-large and must not be inserted into that composition as a documentation change. The prototype must supply activation and disabled behaviour.",
+      "page": "Buttons",
+      "status": "Review before adoption"
+    },
+    {
+      "id": "12:1651",
+      "name": "header",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "balance",
+          "variantOptions": [
+            "balance",
+            "menu open",
+            "session-replay"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1705",
+          "name": "type=balance",
+          "width": 397,
+          "height": 64
+        },
+        {
+          "id": "471:17228",
+          "name": "type=menu open",
+          "width": 397,
+          "height": 64
+        },
+        {
+          "id": "471:17145",
+          "name": "type=session-replay",
+          "width": 397,
+          "height": 64
+        }
+      ],
+      "width": 437,
+      "height": 301,
+      "description": "Studio game header. Use the type variant for balance, menu-open and session-replay states.",
+      "page": "Headers & Footers",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:1742",
+      "name": "compliance-header",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Game Name#373:6": {
+          "type": "TEXT",
+          "defaultValue": "Game Name"
+        },
+        "compliance": {
+          "type": "VARIANT",
+          "defaultValue": "positive",
+          "variantOptions": [
+            "positive",
+            "negative",
+            "neutral"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1743",
+          "name": "compliance=positive",
+          "width": 390,
+          "height": 18
+        },
+        {
+          "id": "12:1756",
+          "name": "compliance=negative",
+          "width": 390,
+          "height": 18
+        },
+        {
+          "id": "12:1769",
+          "name": "compliance=neutral",
+          "width": 390,
+          "height": 18
+        }
+      ],
+      "width": 470,
+      "height": 132,
+      "description": "Session information header with positive, negative and neutral visual variants. Values and state come from the game&#39;s session data and product requirements. Example content is illustrative; this component does not determine regional rules.",
+      "page": "Headers & Footers",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "202:9716",
+      "name": "device-status-bar",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 390,
+      "height": 44,
+      "description": "Device status-bar artwork for screen mockups. Treat it as surrounding device chrome, not game UI. Preserve the platform artwork and omit it from an in-game web interface.",
+      "page": "Headers & Footers",
+      "status": "Catalogue reference"
+    },
+    {
+      "id": "191:1612",
+      "name": "footer",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Bet Amount#372:0": {
+          "type": "TEXT",
+          "defaultValue": "$1.00"
+        },
+        "Last Win Amount#372:3": {
+          "type": "TEXT",
+          "defaultValue": "$12.00"
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "last-win-lg",
+          "variantOptions": [
+            "last-win-lg",
+            "last-win-sm",
+            "session-replay"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:1584",
+          "name": "type=last-win-lg",
+          "width": 390,
+          "height": 36
+        },
+        {
+          "id": "191:1611",
+          "name": "type=last-win-sm",
+          "width": 390,
+          "height": 20
+        },
+        {
+          "id": "471:17302",
+          "name": "type=session-replay",
+          "width": 360,
+          "height": 114
+        }
+      ],
+      "width": 430,
+      "height": 241,
+      "description": "Studio game footer. Use type for large last-win, small last-win and session-replay layouts. Bet Amount and Last Win Amount are exposed text properties.",
+      "page": "Headers & Footers",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "202:9601",
+      "name": "image-box",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 300,
+      "height": 200,
+      "description": "Shared image container. Replace the image content while preserving the container&#39;s token bindings and proportions appropriate to the image. Check cropping for each supplied asset.",
+      "page": "Cards",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "202:9604",
+      "name": "game-logo",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 236,
+      "height": 135,
+      "description": "Shared game-logo placeholder. Supply the game&#39;s branding, preserve its aspect ratio and check its fit within the existing container.",
+      "page": "Cards",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "202:9993",
+      "name": "game-placeholder",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 390,
+      "height": 776,
+      "description": "Placeholder for the game view in design examples. Replace with game-specific content. Its current canvas dimensions are an example, not a supported viewport range.",
+      "page": "Cards",
+      "status": "Catalogue reference"
+    },
+    {
+      "id": "117:2555",
+      "name": "bet-history-lines",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "History guidance#219:0": {
+          "type": "TEXT",
+          "defaultValue": "This history only displays the last 10 games you’ve played. For a complete history please refer to your operator account"
+        },
+        "variable": {
+          "type": "VARIANT",
+          "defaultValue": "date",
+          "variantOptions": [
+            "date",
+            "title",
+            "loss",
+            "history-detail",
+            "freebet",
+            "freebet-bonus",
+            "cancelled",
+            "win",
+            "bet-detail",
+            "replay"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "117:2556",
+          "name": "variable=date",
+          "width": 358,
+          "height": 32
+        },
+        {
+          "id": "117:2558",
+          "name": "variable=title",
+          "width": 358,
+          "height": 30
+        },
+        {
+          "id": "117:2562",
+          "name": "variable=loss",
+          "width": 358,
+          "height": 44
+        },
+        {
+          "id": "117:4403",
+          "name": "variable=history-detail",
+          "width": 358,
+          "height": 96
+        },
+        {
+          "id": "117:2574",
+          "name": "variable=freebet",
+          "width": 358,
+          "height": 48
+        },
+        {
+          "id": "206:14862",
+          "name": "variable=freebet-bonus",
+          "width": 358,
+          "height": 62
+        },
+        {
+          "id": "117:2585",
+          "name": "variable=cancelled",
+          "width": 358,
+          "height": 44
+        },
+        {
+          "id": "117:2593",
+          "name": "variable=win",
+          "width": 358,
+          "height": 44
+        },
+        {
+          "id": "117:2605",
+          "name": "variable=bet-detail",
+          "width": 358,
+          "height": 52
+        },
+        {
+          "id": "387:8224",
+          "name": "variable=replay",
+          "width": 358,
+          "height": 52
+        }
+      ],
+      "width": 395,
+      "height": 694,
+      "description": "Reusable bet-history row variants, including replay and free-bet bonus states used by history and session-replay screens.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "206:14932",
+      "name": "modal-heading",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "search": {
+          "type": "VARIANT",
+          "defaultValue": "no",
+          "variantOptions": [
+            "no",
+            "yes",
+            "search open"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "117:2582",
+          "name": "search=no",
+          "width": 358,
+          "height": 56
+        },
+        {
+          "id": "206:14933",
+          "name": "search=yes",
+          "width": 358,
+          "height": 56
+        },
+        {
+          "id": "210:15029",
+          "name": "search=search open",
+          "width": 358,
+          "height": 102
+        }
+      ],
+      "width": 395,
+      "height": 292,
+      "description": "Shared modal heading. Search variants: no, yes and search open. Use the matching variant for hidden, available or expanded search presentation. Search, clearing and closing behaviour must be wired in the prototype. Keep the title concise.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "87:3856",
+      "name": "autoplay-line",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "custom": {
+          "type": "VARIANT",
+          "defaultValue": "no",
+          "variantOptions": [
+            "no"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "87:3857",
+          "name": "custom=no",
+          "width": 358,
+          "height": 72
+        }
+      ],
+      "width": 398,
+      "height": 188,
+      "description": "Autoplay setting row. The custom property selects the standard or custom-value presentation. The game supplies permitted values and validation. Keep values readable with their units; maximum input length has not been validated.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "206:11302",
+      "name": "how-to-play",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 358,
+      "height": 588,
+      "description": "Game instructions and example table. Replace instructions, multipliers and labels with the current game&#39;s approved content. Preserve the shared type and spacing tokens. Long copy, translated text and table overflow require fit checks.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:5993",
+      "name": "game/interruption",
+      "type": "COMPONENT",
+      "properties": {
+        "Heading#219:24": {
+          "type": "TEXT",
+          "defaultValue": "Oops something went wrong!"
+        },
+        "Message#219:25": {
+          "type": "TEXT",
+          "defaultValue": "An error occurred, but don’t worry. Please try again, or come back later if the issue persists."
+        },
+        "Show secondary action#219:26": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        }
+      },
+      "variants": [],
+      "width": 390,
+      "height": 844,
+      "description": "Shared interruption layout for mobile and desktop. Exposed properties: Heading, Message and Show secondary action. Edit action labels through nested button instances. State the problem and an available next step. Runtime retry/recovery must respect the game&#39;s actual round state. Content lengths and overflow remain to be validated.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "88:4200",
+      "name": "autoplay-sheet",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "basic": {
+          "type": "VARIANT",
+          "defaultValue": "no",
+          "variantOptions": [
+            "no",
+            "yes"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "88:4199",
+          "name": "basic=no",
+          "width": 390,
+          "height": 252
+        },
+        {
+          "id": "88:4198",
+          "name": "basic=yes",
+          "width": 390,
+          "height": 583
+        }
+      ],
+      "width": 586,
+      "height": 920,
+      "description": "Autoplay settings panel. Existing variants are selected by basic=yes/no; use the matching authored layout. Available options, limits and validation come from the game. The same panel arrangement applies on mobile and desktop. Narrow-width and long-value fit checks remain outstanding.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "165:8177",
+      "name": "menu",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 210,
+      "height": 271,
+      "description": "Shared game menu. Configure nested menu-item instances with the required actions and settings. Route actions and persist settings in the prototype. Use the same arrangement on mobile and desktop; long labels need fit checks.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "472:17649",
+      "name": "bonus-modal",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "1 bonus",
+          "variantOptions": [
+            "2 bonuses",
+            "1 bonus",
+            "2+ bonuses"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "472:17647",
+          "name": "type=2 bonuses",
+          "width": 390,
+          "height": 552
+        },
+        {
+          "id": "472:17875",
+          "name": "type=1 bonus",
+          "width": 390,
+          "height": 340
+        },
+        {
+          "id": "472:17646",
+          "name": "type=2+ bonuses",
+          "width": 390,
+          "height": 763
+        }
+      ],
+      "width": 1393,
+      "height": 804,
+      "description": "Session-long bonus offers in one, two or scrollable layouts. The two-offer example demonstrates immediate activation and activation with confirmation.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "471:16882",
+      "name": "bonus-buy",
+      "page": "Modals",
+      "description": "Session-long bonus. Buy activates immediately unless Requires confirmation is enabled; then Buy opens Confirm/Cancel. The type option previews the authored single-button and confirmation states.",
+      "properties": {
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "single-button",
+          "variantOptions": [
+            "single-button",
+            "confirmation"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "471:16881",
+          "name": "type=single-button",
+          "width": 344,
+          "height": 192
+        },
+        {
+          "id": "471:16883",
+          "name": "type=confirmation",
+          "width": 344,
+          "height": 192
+        }
+      ],
+      "width": 384,
+      "height": 444,
+      "type": "COMPONENT_SET",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6050",
+      "name": "history/content/loading",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 537,
+      "description": "Show while history data is being fetched. Leave the content state when the request resolves. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6056",
+      "name": "history/content/error",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 537,
+      "description": "Show when history cannot be loaded. Connect the available retry action to a new request. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6166",
+      "name": "history/content/overview",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 545,
+      "description": "Show the account&#39;s history list using linked history-row instances. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6281",
+      "name": "history/content/winning-bet",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 754,
+      "description": "Show the selected winning bet&#39;s settled details. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "491:18588",
+      "name": "history/content/replay",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 806,
+      "description": "Expanded bet history with a Replay action beside the date and time. Use inside the Bet History panel. Playback of the selected previous round is connected by the prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6396",
+      "name": "history/content/free-bet",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 810,
+      "description": "Show the selected free bet&#39;s settled details. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6511",
+      "name": "history/content/free-bet-with-footer",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 810,
+      "description": "Show free-bet details with the additional authored footer. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6624",
+      "name": "history/content/cancelled-bet",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 754,
+      "description": "Show cancelled-bet details. Stake returns and balances must come from settled account data; the sample is not a settlement rule. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:6813",
+      "name": "history/panel",
+      "type": "COMPONENT",
+      "properties": {
+        "Content#219:27": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "219:6050",
+          "preferredValues": []
+        }
+      },
+      "variants": [],
+      "width": 355,
+      "height": 588,
+      "description": "Shared history panel for mobile and desktop. Swap the exposed Content instance among existing history/content components. Intended behaviour: keep the heading available while history content scrolls within the available space; verify scrolling in the target prototype. Supply operator-specific guidance through history atoms. Nested overrides and narrow-width behaviour remain to be validated.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "221:1748",
+      "name": "history/content/empty",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 537,
+      "description": "Show when the account has no history; this is different from a failed request. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "221:1754",
+      "name": "history/content/no-results",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 355,
+      "height": 537,
+      "description": "Show when a search finds no matching history. Connect clear-search to restore the unfiltered list. Use as the Content instance in history/panel. Values and copy are illustrative. Keep nested rows linked; long-content fit and scroll behaviour require validation in the target prototype.",
+      "page": "Modals",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:2250",
+      "name": "game-control-large",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Left": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes"
+          ]
+        },
+        "Right": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Max Stake": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Extra controls": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "top",
+            "no"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:2251",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=yes",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2258",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=top",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2266",
+          "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=yes",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2272",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=no",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2277",
+          "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=no",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2281",
+          "name": "Left=yes, Right=no, Max Stake=no, Extra controls=yes",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2288",
+          "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=yes",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2296",
+          "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=no",
+          "width": 360,
+          "height": 125
+        },
+        {
+          "id": "12:2300",
+          "name": "Left=yes, Right=no, Max Stake=no, Extra controls=no",
+          "width": 360,
+          "height": 125
+        }
+      ],
+      "width": 397,
+      "height": 1360,
+      "description": "Existing large game controller: nine positional variants, each 360 × 125 px. Use the same layout on mobile and desktop, selected by available game width. Retain the existing Left, Right, Max Stake and Extra controls properties for compatibility; only authored combinations are supported. These positional options are not a region policy. Bonus and difficulty availability are independent product settings. Labels and values stay on one line with 12px wider outer wings; the centre control stays fixed. Tested across the supported demo language and currency presets.",
+      "page": "Game Control",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "71:2809",
+      "name": "game-control-small",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Left": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes"
+          ]
+        },
+        "Right": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Max Stake": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Extra controls": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "top",
+            "no"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "71:2810",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=yes",
+          "width": 290,
+          "height": 112
+        },
+        {
+          "id": "71:2817",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=top",
+          "width": 290,
+          "height": 97
+        },
+        {
+          "id": "71:2824",
+          "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=yes",
+          "width": 290,
+          "height": 97
+        },
+        {
+          "id": "71:2830",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "71:2836",
+          "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "71:2840",
+          "name": "Left=yes, Right=no, Max Stake=no, Extra controls=yes",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "71:2846",
+          "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=yes",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "71:2854",
+          "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "71:2858",
+          "name": "Left=yes, Right=no, Max Stake=no, Extra controls=no",
+          "width": 290,
+          "height": 72
+        }
+      ],
+      "width": 397,
+      "height": 1360,
+      "description": "Existing compact game controller: nine positional variants, 290 px wide with variant-specific heights of 72–112 px. Use the same layout on mobile and desktop, selected by available game width. Retain Left, Right, Max Stake and Extra controls properties; only authored combinations are supported. These positional options are not a region policy. Bonus and difficulty availability are independent product settings. Amount examples do not establish a validated content limit.",
+      "page": "Game Control",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:3121",
+      "name": "action-boxes",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Columns": {
+          "type": "VARIANT",
+          "defaultValue": "1",
+          "variantOptions": [
+            "1",
+            "3"
+          ]
+        },
+        "Arrow": {
+          "type": "VARIANT",
+          "defaultValue": "Left",
+          "variantOptions": [
+            "Left",
+            "Right"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "12:3174",
+          "name": "Columns=1, Arrow=Left",
+          "width": 230,
+          "height": 365
+        },
+        {
+          "id": "12:3193",
+          "name": "Columns=1, Arrow=Right",
+          "width": 230,
+          "height": 365
+        },
+        {
+          "id": "12:3250",
+          "name": "Columns=3, Arrow=Left",
+          "width": 310,
+          "height": 289
+        },
+        {
+          "id": "12:3276",
+          "name": "Columns=3, Arrow=Right",
+          "width": 312,
+          "height": 293
+        }
+      ],
+      "width": 714,
+      "height": 857,
+      "description": "Selection panel with Columns=1/3 and Arrow=Left/Right variants. Select the authored arrangement matching the trigger position and available space. Supply allowed values from the game; example values do not define stake limits. Check longer values and scrolling in the prototype.",
+      "page": "Game Control",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "12:3302",
+      "name": "difficulty-panel",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 216,
+      "height": 253,
+      "description": "Difficulty selector using the game&#39;s available options. Show only when difficulty selection is available; bonus availability is independent. Labels and their gameplay meaning come from the game. Keep option labels concise; translated-label fit is unvalidated.",
+      "page": "Game Control",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:7982",
+      "name": "game-controller",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Bonus available#219:28": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Region": {
+          "type": "VARIANT",
+          "defaultValue": "Non-UK",
+          "variantOptions": [
+            "Non-UK",
+            "UK"
+          ]
+        },
+        "Difficulty available": {
+          "type": "VARIANT",
+          "defaultValue": "off",
+          "variantOptions": [
+            "off",
+            "on"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "small"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "219:7682",
+          "name": "Region=Non-UK, Difficulty available=off, Size=large",
+          "width": 360,
+          "height": 158
+        },
+        {
+          "id": "219:7722",
+          "name": "Region=Non-UK, Difficulty available=on, Size=large",
+          "width": 360,
+          "height": 158
+        },
+        {
+          "id": "219:7771",
+          "name": "Region=UK, Difficulty available=off, Size=large",
+          "width": 360,
+          "height": 158
+        },
+        {
+          "id": "219:7795",
+          "name": "Region=UK, Difficulty available=on, Size=large",
+          "width": 360,
+          "height": 158
+        },
+        {
+          "id": "219:7829",
+          "name": "Region=Non-UK, Difficulty available=off, Size=small",
+          "width": 290,
+          "height": 105
+        },
+        {
+          "id": "219:7870",
+          "name": "Region=Non-UK, Difficulty available=on, Size=small",
+          "width": 290,
+          "height": 145
+        },
+        {
+          "id": "219:7921",
+          "name": "Region=UK, Difficulty available=off, Size=small",
+          "width": 290,
+          "height": 105
+        },
+        {
+          "id": "219:7946",
+          "name": "Region=UK, Difficulty available=on, Size=small",
+          "width": 290,
+          "height": 105
+        }
+      ],
+      "width": 1712,
+      "height": 460,
+      "description": "Configuration-oriented controller awaiting product review before adoption. Exposed options: Region (UK/Non-UK), Difficulty available (off/on), Size (large/small) and Bonus available (boolean). Bonus and difficulty are independent. Mobile and desktop share the same layout; size follows available game width. This is a separate component from the existing game-control-large and game-control-small sets; it does not replace them automatically.",
+      "page": "Game Control",
+      "status": "Review before adoption"
+    },
+    {
+      "id": "219:5429",
+      "name": "onboarding/tutorial",
+      "type": "COMPONENT",
+      "properties": {
+        "Feature title#219:10": {
+          "type": "TEXT",
+          "defaultValue": "FEATURE TITLE"
+        },
+        "Feature explanation#219:11": {
+          "type": "TEXT",
+          "defaultValue": "Feature explanation"
+        },
+        "Heading#219:12": {
+          "type": "TEXT",
+          "defaultValue": "How to Play"
+        }
+      },
+      "variants": [],
+      "width": 390,
+      "height": 844,
+      "description": "Shared tutorial layout for mobile and desktop. Exposed text: Heading, Feature title and Feature explanation. Configure imagery, progress dots and checkbox through nested content. Describe one feature per step with a short heading and concise explanation. Step navigation and preference persistence are supplied by the prototype. Long-copy, narrow-width and overflow limits remain unvalidated.",
+      "page": "Onboarding",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:5922",
+      "name": "onboarding/loading",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 390,
+      "height": 844,
+      "description": "Shared loading layout for mobile and desktop. Supply game branding through the nested game-logo instance. Loading progress and transition to the game are supplied by the prototype; no completion timing is implied by the example.",
+      "page": "Onboarding",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "219:5955",
+      "name": "onboarding/sound-choice",
+      "type": "COMPONENT",
+      "properties": {},
+      "variants": [],
+      "width": 390,
+      "height": 844,
+      "description": "Shared sound-choice layout for mobile and desktop. Supply game branding through the nested game-logo instance. The prototype applies the chosen audio setting and determines preference persistence. Keep action labels concise.",
+      "page": "Onboarding",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "562:20162",
+      "name": "multiplier-bar",
+      "type": "COMPONENT_SET",
+      "page": "Game Control",
+      "status": "Proposed for first release",
+      "description": "Five multiplier progression states from the WIP master. Use the arrows or variant selector to preview progression. Values are the authored examples, not game rules.",
+      "properties": {
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "pre-play",
+          "variantOptions": [
+            "pre-play",
+            "first-amount",
+            "third-amount",
+            "fourth-amount",
+            "last-amount"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "555:19994",
+          "name": "state=pre-play",
+          "width": 352,
+          "height": 30
+        },
+        {
+          "id": "555:20017",
+          "name": "state=first-amount",
+          "width": 352,
+          "height": 30
+        },
+        {
+          "id": "555:20043",
+          "name": "state=third-amount",
+          "width": 352,
+          "height": 30
+        },
+        {
+          "id": "555:20069",
+          "name": "state=fourth-amount",
+          "width": 352,
+          "height": 30
+        },
+        {
+          "id": "555:20095",
+          "name": "state=last-amount",
+          "width": 352,
+          "height": 30
+        }
+      ],
+      "width": 392,
+      "height": 383
+    },
+    {
+      "id": "564:20163",
+      "name": "maintenance-screen",
+      "type": "INSTANCE",
+      "page": "Modals",
+      "status": "Proposed for first release",
+      "description": "Maintenance screen using the shared interruption layout. Close emits an action for the host game. The displayed refund statement is editable copy; settlement is handled by the host game.",
+      "properties": {
+        "Heading": {
+          "type": "TEXT",
+          "defaultValue": "We're making some improvements!"
+        },
+        "Message": {
+          "type": "TEXT",
+          "defaultValue": "The game is currently under maintenance. Please try again later. Any active bets will be automatically void and refunded."
+        },
+        "Close label": {
+          "type": "TEXT",
+          "defaultValue": "CLOSE"
+        }
+      },
+      "variants": []
+    },
+    {
+      "id": "741:23478",
+      "name": "switch-text",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "text": {
+          "type": "VARIANT",
+          "defaultValue": "right",
+          "variantOptions": [
+            "right",
+            "left"
+          ]
+        },
+        "label": {
+          "type": "TEXT",
+          "defaultValue": "Stop if special feature triggered"
+        },
+        "checked": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      },
+      "variants": [
+        {
+          "id": "741:23464",
+          "name": "text=right",
+          "width": 234,
+          "height": 24
+        },
+        {
+          "id": "741:23479",
+          "name": "text=left",
+          "width": 234,
+          "height": 24
+        }
+      ],
+      "width": 274,
+      "height": 108,
+      "page": "Buttons",
+      "status": "Proposed for first release",
+      "description": "Labelled switch with left/right text placement. Toggles by pointer or keyboard; disabled blocks interaction. Labels wrap within constrained containers."
+    },
+    {
+      "id": "741:23483",
+      "name": "checkbox-text",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "text": {
+          "type": "VARIANT",
+          "defaultValue": "right",
+          "variantOptions": [
+            "right",
+            "left"
+          ]
+        },
+        "label": {
+          "type": "TEXT",
+          "defaultValue": "Stop if special feature triggered"
+        },
+        "checked": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        }
+      },
+      "variants": [
+        {
+          "id": "741:23484",
+          "name": "text=right",
+          "width": 214,
+          "height": 24
+        },
+        {
+          "id": "741:23487",
+          "name": "text=left",
+          "width": 214,
+          "height": 24
+        }
+      ],
+      "width": 274,
+      "height": 108,
+      "page": "Buttons",
+      "status": "Proposed for first release",
+      "description": "Labelled checkbox with left/right text placement. Toggles by pointer or keyboard; disabled blocks interaction. Labels wrap within constrained containers."
+    },
+    {
+      "id": "825:6771",
+      "name": "game-control-extra-small",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Left": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes"
+          ]
+        },
+        "Right": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Max Stake": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no"
+          ]
+        },
+        "Autoplay": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no",
+            "top"
+          ]
+        },
+        "Turbo": {
+          "type": "VARIANT",
+          "defaultValue": "yes",
+          "variantOptions": [
+            "yes",
+            "no",
+            "top"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "825:6772",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=yes, Turbo=yes",
+          "width": 290,
+          "height": 112
+        },
+        {
+          "id": "825:6779",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=top, Turbo=top",
+          "width": 290,
+          "height": 97
+        },
+        {
+          "id": "825:6786",
+          "name": "Left=yes, Right=yes, Max Stake=no, Autoplay=yes, Turbo=yes",
+          "width": 290,
+          "height": 97
+        },
+        {
+          "id": "825:6792",
+          "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=no, Turbo=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6797",
+          "name": "Left=yes, Right=yes, Max Stake=no, Autoplay=no, Turbo=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6801",
+          "name": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=yes",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6807",
+          "name": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6812",
+          "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=yes",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6819",
+          "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6825",
+          "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=no, Turbo=no",
+          "width": 290,
+          "height": 72
+        },
+        {
+          "id": "825:6829",
+          "name": "Left=yes, Right=no, Max Stake=no, Autoplay=no, Turbo=no",
+          "width": 290,
+          "height": 72
+        }
+      ],
+      "width": 290,
+      "height": 112,
+      "description": "Extra-small controller with a 50 px main action button and compact wings. Eleven authored layouts, including separate Autoplay and Turbo availability. Uses the same actions and game-supplied stake as other controller sizes.",
+      "page": "Game Control",
+      "status": "Proposed for first release"
+    },
+    {
+      "id": "918:10765",
+      "name": "header-buttons",
+      "type": "COMPONENT_SET",
+      "properties": {
+        "Property 1": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "hover",
+            "Pressed",
+            "disabled",
+            "focus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "918:10764",
+          "name": "Property 1=Default",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "id": "918:10778",
+          "name": "Property 1=focus",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "id": "918:10766",
+          "name": "Property 1=hover",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "id": "918:10770",
+          "name": "Property 1=Pressed",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "id": "918:10774",
+          "name": "Property 1=disabled",
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "width": 44,
+      "height": 44,
+      "description": "Header icon button, with default, hover, pressed, disabled and keyboard focus states.",
+      "page": "Buttons",
+      "status": "Proposed for first release"
+    }
+  ]
+}

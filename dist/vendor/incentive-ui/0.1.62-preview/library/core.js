@@ -1,0 +1,15 @@
+/** Incentive UI: portable, token-backed components. No game rules or account data. */
+export const VERSION = '0.1.62-preview';
+export const base = new URL('./', import.meta.url);
+export const [inventory, layouts, artwork, wingArtwork, betArtwork, selectionArtwork] = await Promise.all(['inventory.json','controller-layouts.json','artwork.json','wing-artwork.json','bet-artwork.json','selection-artwork.json'].map(p=>fetch(new URL(p+'?v='+VERSION,base)).then(r=>{if(!r.ok)throw Error(`Cannot load ${p}`);return r.json()})));
+export const escape = x => String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const asset = file => new URL('assets/'+file,base).href;
+export const art = (group,key) => asset(artwork[group][key]);
+export function child(name,props={},extra=''){return `<is-component name="${escape(name)}" options="${escape(JSON.stringify(props))}" ${extra}></is-component>`}
+export function parseVariant(name){return Object.fromEntries(name.split(',').map(x=>x.split('=').map(v=>v.trim())).filter(x=>x.length===2))}
+export function defaults(name){const row=inventory.components.find(x=>x.name===name);return Object.fromEntries(Object.entries(row?.properties||{}).map(([k,p])=>[k.split('#')[0],p.defaultValue]))}
+export function emit(el,action,value){el.dispatchEvent(new CustomEvent('is-action',{bubbles:true,composed:true,detail:{component:el.name,action,value}}))}
+export const icons={"arrow down":"figma-111-2406.svg","info":"figma-117-6910.svg","tutorial":"figma-161-7956.svg","music":"figma-161-7969.svg","user-history":"figma-161-7977.svg","sound-effects":"figma-161-7985.svg","exit-game":"figma-161-7993.svg","search":"figma-206-14946.svg","infinite":"figma-261-21579.svg","play":"figma-388-8234.svg","sm-arrow-down":"figma-466-16336.svg","sm-arrow-up":"figma-466-16352.svg","warning":"figma-519-19716.svg","tick":"figma-787-23824.svg","autoplay":"figma-12-768.svg","fast-forward":"figma-12-780.svg","plus":"figma-12-795.svg","close":"figma-12-799.svg","updown":"figma-12-803.svg","minus":"figma-12-822.svg","menu":"figma-12-831.svg","arrow left":"figma-12-846.svg","arrow right":"figma-12-851.svg","arrow up":"figma-111-2366.svg"};
+export function icon(name='autoplay',state='default'){const file=icons[name];if(!file)throw Error(`Unknown icon: ${name}`);return `<span class="icon ${name==='fast-forward'?'ff':name==='updown'?'updown':''}" data-state="${escape(state)}" aria-hidden="true"><i style="mask-image:url('${asset(file)}')"></i></span>`}
+export function action(label,actionName,props={}){return child(props.secondary?'secondary-button':'primary-button',{...props,label,action:actionName})}
+export function heading(title,search='no'){return `<div class="modal-heading"><h2>${escape(title)}</h2><div class="row">${search!=='no'?`<button class="icon-button" data-action="search-toggle" aria-label="Search">${icon('search')}</button>`:''}<button class="icon-button" data-action="close" aria-label="Close">${icon('close')}</button></div></div>`}

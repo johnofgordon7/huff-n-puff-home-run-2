@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "12:2251",
+    "name": "Left=yes,Right= yes, Max Stake=yes, Extra controls= yes ",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7446",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7456",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7459",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "12:2568",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1.000000238418579,
+        "y": 88,
+        "w": 5.999992370605469,
+        "h": 130,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "220:7469",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 101,
+        "y": 95,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "220:7479",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 95,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2258",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=top",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7485",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 38,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7495",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 11,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7498",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 38,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "12:2809",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 98,
+        "w": 5.999992370605469,
+        "h": 130,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "220:7508",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 101,
+        "y": 0,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "220:7518",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 0,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2266",
+    "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=yes",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7524",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7534",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7537",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "220:7547",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 101,
+        "y": 95,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "220:7557",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 95,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2272",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=no",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7563",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7573",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7576",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "12:2594",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 88,
+        "w": 5.999992370605469,
+        "h": 130,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2277",
+    "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=no",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7586",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7596",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7599",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 230,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12:2281",
+    "name": "Left=yes, Right=no, Max Stake=no, Extra controls=yes",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7625",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7635",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "220:7609",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 245,
+        "y": 24,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "shape=round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "220:7619",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 309,
+        "y": 24,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "shape=round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2288",
+    "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=yes",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7654",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7664",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 130,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "15:9259",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 88,
+        "w": 5.999992370605469,
+        "h": 130,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "220:7638",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 245,
+        "y": 24,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "shape=round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "220:7648",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 309,
+        "y": 24,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "shape=round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2296",
+    "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=no",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7667",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 65,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7677",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 194,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      },
+      {
+        "id": "12:2620",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 65,
+        "y": 88,
+        "w": 5.999992370605469,
+        "h": 130,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "12:2300",
+    "name": "Left=yes, Right=no, Max Stake=no, Extra controls=no",
+    "w": 360,
+    "h": 125,
+    "children": [
+      {
+        "id": "220:7680",
+        "name": "control-button-primary-lg",
+        "type": "INSTANCE",
+        "x": 65,
+        "y": 28,
+        "w": 129,
+        "h": 46.0000114440918,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$2.00"
+        ]
+      },
+      {
+        "id": "220:7690",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 194,
+        "y": 1,
+        "w": 100,
+        "h": 100,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=large",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2810",
+    "name": "Left=yes,Right= yes, Max Stake=yes, Extra controls= yes ",
+    "w": 290,
+    "h": 112,
+    "children": [
+      {
+        "id": "71:2811",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "1,000,000"
+        ]
+      },
+      {
+        "id": "71:2812",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 110,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2813",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "71:2814",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "71:2815",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 84,
+        "y": 81,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "71:2816",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 81,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2817",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=top",
+    "w": 290,
+    "h": 97,
+    "children": [
+      {
+        "id": "71:3246",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 39,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "1,000,000"
+        ]
+      },
+      {
+        "id": "71:3247",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 110,
+        "y": 26,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:3248",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 39,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "71:3249",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 97,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "71:3250",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 84,
+        "y": 1,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "71:3251",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 1,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2824",
+    "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=yes",
+    "w": 290,
+    "h": 97,
+    "children": [
+      {
+        "id": "71:2825",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2826",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 110,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2827",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "71:2828",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 85,
+        "y": 66,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "71:2829",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 66,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2830",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Extra controls=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:2832",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 1.9670103768021363e-07,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2833",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 110,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2834",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      },
+      {
+        "id": "71:3112",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1.9670103768021363e-07,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2836",
+    "name": "Left=yes, Right=yes, Max Stake=no, Extra controls=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:2837",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 0,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2838",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 109,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2839",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 174,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "text": [
+          "Difficulty",
+          "Medium"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "71:2840",
+    "name": "Left=yes, Right=no, Max Stake=no, Extra controls=yes",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:2844",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 5,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2845",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 114,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2842",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 200,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "71:2843",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 244,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2846",
+    "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=yes",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:2851",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2852",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 110,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:2853",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 1,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 114,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      },
+      {
+        "id": "71:3232",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 200,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      },
+      {
+        "id": "71:3233",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 244,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2854",
+    "name": "Left=yes, Right=no, Max Stake=yes, Extra controls=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:3131",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 55,
+        "y": 13,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:3132",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 164,
+        "y": 0,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      },
+      {
+        "id": "71:3133",
+        "name": "max-bet-progress",
+        "type": "INSTANCE",
+        "x": 55,
+        "y": 71,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "max-bet-progress",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "71:2858",
+    "name": "Left=yes, Right=no, Max Stake=no, Extra controls=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "71:2859",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 55,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "text": [
+          "Bet Amount",
+          "$1.00"
+        ]
+      },
+      {
+        "id": "71:2860",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 164,
+        "y": 1,
+        "w": 70,
+        "h": 70,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=small",
+        "text": []
+      }
+    ]
+  },
+  {
+    "id": "825:6772",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=yes, Turbo=yes",
+    "w": 290,
+    "h": 112,
+    "children": [
+      {
+        "id": "825:6773",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 10,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6774",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6775",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 166,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6776",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 11,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "progress-bar"
+      },
+      {
+        "id": "825:6777",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 94,
+        "y": 81,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "fast-forward"
+      },
+      {
+        "id": "825:6778",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 166,
+        "y": 81,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      }
+    ],
+    "sourceName": "Left=yes, Right=yes, Max Stake=yes, Autoplay=yes, Turbo=yes",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6779",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=top, Turbo=top",
+    "w": 290,
+    "h": 97,
+    "children": [
+      {
+        "id": "825:6780",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 6,
+        "y": 39,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6781",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 36,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6782",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 170,
+        "y": 39,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6783",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 8,
+        "y": 97,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "progress-bar"
+      },
+      {
+        "id": "825:6784",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 84,
+        "y": 1,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "fast-forward"
+      },
+      {
+        "id": "825:6785",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 175,
+        "y": 1,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      }
+    ],
+    "sourceName": "Left=yes, Right=yes, Max Stake=yes, Autoplay=top, Turbo=top",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6786",
+    "name": "Left=yes, Right=yes, Max Stake=no, Autoplay=yes, Turbo=yes",
+    "w": 290,
+    "h": 97,
+    "children": [
+      {
+        "id": "825:6787",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 8,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6788",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6789",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 169,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6790",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 95,
+        "y": 66,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "fast-forward"
+      },
+      {
+        "id": "825:6791",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 166,
+        "y": 66,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      }
+    ],
+    "sourceName": "Left=yes, Right=yes, Max Stake=no, Autoplay=yes, Turbo=ye",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6792",
+    "name": "Left=yes, Right=yes, Max Stake=yes, Autoplay=no, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6793",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 10,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6794",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6795",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 166,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6796",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 10,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "progress-bar"
+      }
+    ],
+    "sourceName": "Left=yes, Right=yes, Max Stake=yes, Autoplay=no, Turbo=no",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6797",
+    "name": "Left=yes, Right=yes, Max Stake=no, Autoplay=no, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6798",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 7,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6799",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6800",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 169,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=right, state=default",
+        "icon": "sm-arrow-down"
+      }
+    ],
+    "sourceName": "Left=yes, Right=yes, Max Stake=no, Autoplay=no, Turbo=no",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6801",
+    "name": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=yes",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6803",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 193,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "fast-forward"
+      },
+      {
+        "id": "825:6804",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 237,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      },
+      {
+        "id": "825:6805",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 6,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6806",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=yes",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6807",
+    "name": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6809",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 200,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      },
+      {
+        "id": "825:6810",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 5,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6811",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=no, Autoplay=yes, Turbo=no",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6812",
+    "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=yes",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6813",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 6,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6814",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6815",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 6,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 114,
+        "visible": true,
+        "main": "progress-bar"
+      },
+      {
+        "id": "825:6817",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 193,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "fast-forward"
+      },
+      {
+        "id": "825:6818",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 237,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=yes",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6819",
+    "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6820",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 5,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6821",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 120,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6822",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 5,
+        "y": 72,
+        "w": 5.999993324279785,
+        "h": 114,
+        "visible": true,
+        "main": "progress-bar"
+      },
+      {
+        "id": "825:6824",
+        "name": "control-button-secondary",
+        "type": "INSTANCE",
+        "x": 193,
+        "y": 21,
+        "w": 30,
+        "h": 30,
+        "visible": true,
+        "main": "shape=sm-round, state=default, type=icon",
+        "icon": "autoplay"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=yes, Autoplay=yes, Turbo=no",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6825",
+    "name": "Left=yes, Right=no, Max Stake=yes, Autoplay=no, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6826",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 55,
+        "y": 13,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6827",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 164,
+        "y": 10,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      },
+      {
+        "id": "825:6828",
+        "name": "progress-bar",
+        "type": "INSTANCE",
+        "x": 55,
+        "y": 71,
+        "w": 5.999993324279785,
+        "h": 113,
+        "visible": true,
+        "main": "progress-bar"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=yes, Autoplay=no, Turbo=no",
+    "size": "extra-small"
+  },
+  {
+    "id": "825:6829",
+    "name": "Left=yes, Right=no, Max Stake=no, Autoplay=no, Turbo=no",
+    "w": 290,
+    "h": 72,
+    "children": [
+      {
+        "id": "825:6830",
+        "name": "control-button-primary-sm",
+        "type": "INSTANCE",
+        "x": 63,
+        "y": 14,
+        "w": 114,
+        "h": 44,
+        "visible": true,
+        "main": "side=left, state=default",
+        "icon": "sm-arrow-down"
+      },
+      {
+        "id": "825:6831",
+        "name": "control-bet-button",
+        "type": "INSTANCE",
+        "x": 176,
+        "y": 11,
+        "w": 50,
+        "h": 50,
+        "visible": true,
+        "main": "type=play-icon, state=default, shape=circle, size=extra-small"
+      }
+    ],
+    "sourceName": "Left=yes, Right=no, Max Stake=no, Autoplay=no, Turbo=no",
+    "size": "extra-small"
+  }
+]
