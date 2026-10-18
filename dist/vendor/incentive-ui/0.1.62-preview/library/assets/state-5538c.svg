@@ -1,0 +1,9 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="control-bet-button">
+<g id="Ellipse 1">
+<circle cx="51" cy="51" r="50" fill="#111111" fill-opacity="0.7"/>
+<circle cx="51" cy="51" r="50.5" stroke="white" stroke-opacity="0.4"/>
+</g>
+<path id="Rectangle 118" d="M35 39C35 36.7909 36.7909 35 39 35H63C65.2091 35 67 36.7909 67 39V63C67 65.2091 65.2091 67 63 67H39C36.7909 67 35 65.2091 35 63V39Z" fill="white"/>
+</g>
+</svg>
